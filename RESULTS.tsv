@@ -1,0 +1,52 @@
+package	date	result	line
+ritwickdey.LiveServer	2026-10-28		8
+esbenp.prettier-vscode	2026-10-28	prettier.disableLanguages is declared but never read, so it has no effect: https://github.com/prettier/prettier-vscode/issues/4015. Format Selection formats the whole file when the selection starts at offset 0 (rangeStart 0 is falsy in 'rangeEnd && rangeStart'): commented with the cause on the open issue https://github.com/prettier/prettier-vscode/issues/3567	11
+formulahendry.code-runner	2026-10-28		32
+twxs.cmake	2026-10-28		30
+PKief.material-icon-theme	2026-10-28		38
+formulahendry.auto-rename-tag	2026-10-28		45
+mechatroner.rainbow-csv	2026-10-28		47
+christian-kohler.path-intellisense	2026-10-28		55
+EditorConfig.EditorConfig	2026-10-28		73
+aaron-bond.better-comments	2026-10-28		95
+yzhang.markdown-all-in-one	2026-10-28	Toggle bold/italic/strikethrough/code on a selection inside the markers adds a second layer (*word* + Ctrl+I becomes bold): https://github.com/yzhang-gh/vscode-markdown/issues/1592. Table formatter rewrites tables inside fenced code, indented code, HTML comments and math blocks: https://github.com/yzhang-gh/vscode-markdown/issues/1593	75
+DavidAnson.vscode-markdownlint	2026-10-28		85
+usernamehw.errorlens	2026-10-28		98
+Gruntfuggly.todo-tree	2026-10-28		118
+redhat.vscode-yaml	2026-10-28		42
+HookyQR.beautify	2026-10-28		96
+DotJoshJohnson.xml	2026-10-28		116
+mikestead.dotenv	2026-10-28		115
+alefragnani.project-manager	2026-10-28		125
+oderwat.indent-rainbow	2026-10-28	Packaging: 1,217 node_modules files ship because @vscode/test-web is in dependencies. https://github.com/oderwat/vscode-indent-rainbow/issues/208	81
+tamasfe.even-better-toml	2026-10-28	evenBetterToml.formatter.reorderInlineTables (and reorder_inline_tables in taplo.toml) has no effect, inline tables are never reordered: https://github.com/tamasfe/taplo/issues/894	184
+shardulm94.trailing-spaces	2026-10-28		226
+mohsen1.prettify-json	2026-10-28		260
+alefragnani.Bookmarks	2026-10-28		182
+ZainChen.json	2026-10-28		206
+wayou.vscode-todo-highlight	2026-10-28		154
+formulahendry.auto-complete-tag	2026-10-28		238
+formulahendry.auto-close-tag	2026-10-28		64
+sidthesloth.html5-boilerplate	2026-10-28		161
+bierner.markdown-mermaid	2026-10-28		176
+codezombiech.gitignore	2026-10-28		149
+vscodevim.vim	2026-10-28		109
+jeff-hykin.better-cpp-syntax	2026-10-28		84
+naumovs.color-highlight	2026-10-28		104
+tomoki1207.pdf	2026-10-28		79
+techer.open-in-browser	2026-10-28		82
+tht13.python	2026-10-28	Deprecated and unmaintained (last push 2018); language client logs Channel closed errors after start. Not filed.	143
+awwsky.csharpfixformatfixed	2026-10-28	VS Code refuses to install it: signature verification failed (NotSigned). Not filed.	241
+foxundermoon.shell-format	2026-10-28	Fails to activate: package lacks dist/one_ini_bg.wasm (ENOENT). Already reported: https://github.com/foxundermoon/vs-shell-format/issues/416	274
+ecmel.vscode-html-css	2026-10-28		41
+xabikos.JavaScriptSnippets	2026-10-28		52
+njpwerner.autodocstring	2026-10-28	Docstring indented by the guessed tab size, invalid Python after an aligned multi-line def: https://github.com/NilsJPWerner/autoDocstring/issues/315. Non-ASCII parameter names dropped: already reported (308).	63
+idleberg.icon-fonts	2026-10-28	package.json lists 9 snippet files that are not in the package. Already reported; repository archived. Not filed.	666
+lolkush.quickstart	2026-10-28	package.json points at ./snippets/html.json but the file is at the package root, so no snippet loads. No repository listed. Not filed.	937
+hridoy.rails-snippets	2026-10-28	package.json lists a misspelled and a missing snippet file. Already reported (7); repository archived. Not filed.	991
+fivethree.vscode-ionic-snippets	2026-10-28	i-reorder-group has an unclosed choice placeholder, inserted as literal text: https://github.com/fivethree-team/vscode-ionic-snippets/issues/32	1018
+hridoy.jquery-snippets	2026-10-28	package.json lists a misspelled and a missing snippet file. Source repository no longer exists. Not filed.	1176
+HansUXdev.bootstrap5-snippets	2026-10-28	b5-progress has an unclosed choice placeholder, inserted as literal text: https://github.com/HansUXdev/B5-Snippets/issues/18	791
+cschlosser.doxdocgen	2026-10-28	constexpr/consteval not stripped from @return: https://github.com/cschlosser/doxdocgen/issues/349. C++20 requires clause parsed as the return type: https://github.com/cschlosser/doxdocgen/issues/350. No @param for T (&arr)[N] with a template bound: https://github.com/cschlosser/doxdocgen/issues/351	86
+KevinRose.vsc-python-indent	2026-10-28	A comment ending in ( makes Enter indent the next line: https://github.com/kbrose/vsc-python-indent/issues/135	57
+streetsidesoftware.code-spell-checker	2026-10-28	cSpell.maxFileSize is ignored: https://github.com/streetsidesoftware/vscode-spell-checker/issues/5602. Non-numeric minWordLength silently turns off all checking: https://github.com/streetsidesoftware/vscode-spell-checker/issues/5603	58

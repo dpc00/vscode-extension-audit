@@ -1,0 +1,5 @@
+- [audit-one-commit-per-day](feedback_one_commit_per_day_2026_10_28.md) - Donald 2026-10-28: this repo gets ONE commit per day; he said AMEND that commit through the day (explicit, this repo only)
+- [session-baton-2026-10-28-one-by-one](project_session_baton_2026_10_28_one_by_one.md) - START HERE (newest): sandbox and bulk pipeline gone, one-at-a-time real tests in the portable editor, 50 rows, 8 issues posted, public repos with one amended commit a day
+- (superseded, kept for the record) [session-baton-2026-10-28-sandbox-running](project_session_baton_2026_10_28_sandbox_running.md) - START HERE (newest): sandbox works, vscode-mcp-sandbox registered, install folder bug fixed, safety decided (static triage first, live only in sandbox), first batch of 5 next
+- [session-baton-2026-10-28-project-created](project_session_baton_2026_10_28_project_created.md) - older: project created; its open safety question is now decided
+- [never-run-in-background](feedback_never_run_in_background_2026_10_28.md) - Donald 2026-10-28: nothing runs in the background, ever; split long tests into short foreground scripts
