@@ -1,0 +1,301 @@
+order	installs	pkg	version	last_updated	name
+1	243127422	ms-python.python	2026.11.2026102801	2026-10-28T14:04:22.73Z	Python
+2	209768740	ms-python.vscode-pylance	2026.4.101	2026-10-16T00:57:22.42Z	Pylance
+3	148490923	ms-python.debugpy	2026.7.12991010	2026-10-26T10:58:51.527Z	Python Debugger
+4	110818080	ms-toolsai.jupyter	2026.6.2026071501	2026-07-15T10:05:18.373Z	Jupyter
+5	106280754	ms-vscode.cpptools	1.35.5	2026-10-28T01:45:54.75Z	C/C++
+6	90394700	ms-toolsai.jupyter-keymap	1.1.2	2023-06-05T17:53:31.993Z	Jupyter Keymap
+7	89588727	ms-toolsai.jupyter-renderers	1.3.2025062701	2025-06-27T07:16:12.467Z	Jupyter Notebook Renderers
+8	83930893	ritwickdey.LiveServer	5.7.10	2026-02-27T09:33:05.19Z	Live Server
+9	79023709	GitHub.copilot-chat	0.48.1	2026-05-15T22:33:59.763Z	GitHub Copilot Chat
+10	74824076	GitHub.copilot	1.388.0	2025-10-24T17:25:13.55Z	GitHub Copilot
+11	72600524	esbenp.prettier-vscode	12.4.0	2026-03-16T19:18:07.213Z	Prettier - Code formatter
+12	70877540	ms-toolsai.vscode-jupyter-cell-tags	0.1.9	2024-04-03T01:41:26.07Z	Jupyter Cell Tags
+13	70803228	ms-toolsai.vscode-jupyter-slideshow	0.1.6	2024-04-03T01:45:59.507Z	Jupyter Slide Show
+14	64530601	ms-vscode.cmake-tools	1.25.6	2026-10-19T04:46:50.187Z	CMake Tools
+15	62887818	ms-python.vscode-python-envs	1.41.2026102301	2026-10-23T11:03:04.987Z	Python Environments
+16	62627070	VisualStudioExptTeam.vscodeintellicode	1.3.2	2024-10-23T23:47:03.837Z	IntelliCode
+17	61072622	ms-vscode.cpptools-themes	2.0.0	2022-10-24T21:51:14.927Z	C/C++ Themes
+18	59181528	ms-vscode.cpptools-extension-pack	1.5.1	2026-02-19T22:41:00.21Z	C/C++ Extension Pack
+19	58252712	redhat.java	1.59.2026102808	2026-10-28T08:38:53.943Z	Language Support for Java(TM) by Red Hat
+20	56733711	MS-CEINTL.vscode-language-pack-zh-hans	1.131.2026090407	2026-09-04T07:58:37.973Z	Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+21	53607483	eamodio.gitlens	2026.10.280511	2026-10-28T09:22:24.573Z	GitLens — Git supercharged
+22	53557626	dbaeumer.vscode-eslint	3.0.34	2026-07-16T12:04:19.623Z	ESLint
+23	53471593	vscjava.vscode-java-debug	0.60.2026102705	2026-10-27T12:18:06.683Z	Debugger for Java
+24	53140923	ms-azuretools.vscode-docker	2.0.0	2025-05-28T19:12:39.137Z	Docker
+25	49538420	vscjava.vscode-maven	0.46.0	2026-10-08T04:56:17.333Z	Maven for Java
+26	48107136	vscjava.vscode-java-test	0.47.0	2026-10-14T11:31:54.36Z	Test Runner for Java
+27	47636785	vscjava.vscode-java-dependency	0.27.2026092100	2026-09-21T03:47:21.727Z	Project Manager for Java
+28	47278273	vscjava.vscode-java-pack	0.31.2026101207	2026-10-12T08:00:59.84Z	Extension Pack for Java
+29	47093047	VisualStudioExptTeam.intellicode-api-usage-examples	0.2.9	2024-10-23T23:35:15.667Z	IntelliCode API Usage Examples
+30	46820632	twxs.cmake	0.0.17	2017-03-06T23:12:02.523Z	CMake
+31	44053974	ms-dotnettools.csharp	11.7.18	2026-10-28T17:30:07.73Z	C#
+32	42591807	formulahendry.code-runner	0.12.2	2024-04-05T09:29:47.39Z	Code Runner
+33	42453824	ms-vscode-remote.remote-containers	0.470.0	2026-09-08T14:26:08.86Z	Dev Containers
+34	41126765	ms-vscode-remote.remote-wsl	1.104.6	2026-10-23T17:47:16.16Z	WSL
+35	38312832	ms-vscode-remote.remote-ssh	0.129.2026100915	2026-10-09T15:27:37.92Z	Remote - SSH
+36	37215758	GitHub.vscode-pull-request-github	0.175.2026102804	2026-10-28T04:22:51.65Z	GitHub Pull Requests
+37	36127184	ms-vscode-remote.remote-ssh-edit	0.87.0	2024-10-01T21:16:18.36Z	Remote - SSH: Editing Configuration Files
+38	36056064	PKief.material-icon-theme	5.40.0	2026-10-26T12:37:54.383Z	Material Icon Theme
+39	30955366	ms-dotnettools.vscode-dotnet-runtime	3.2.0	2026-09-22T17:11:33.357Z	.NET Install Tool
+40	30677421	ms-vscode.remote-explorer	0.6.2026100809	2026-10-08T09:31:43.057Z	Remote Explorer
+41	30009780	ecmel.vscode-html-css	2.0.14	2026-02-12T12:00:50.113Z	HTML CSS Support
+42	29762683	redhat.vscode-yaml	2.1.2026102308	2026-10-23T08:22:11.58Z	YAML
+43	29314097	vscjava.vscode-gradle	3.18.2026102002	2026-10-20T02:58:12.96Z	Gradle for Java
+44	28924456	anthropic.claude-code	2.1.312	2026-10-27T20:41:24.027Z	Claude Code for VS Code
+45	26178078	formulahendry.auto-rename-tag	0.1.10	2022-02-08T11:22:48.717Z	Auto Rename Tag
+46	25957241	ms-python.isort	2026.7.12931005	2026-10-20T10:37:13.31Z	isort
+47	24778688	mechatroner.rainbow-csv	3.24.1	2026-01-17T02:55:42.627Z	Rainbow CSV
+48	24757560	vscode-icons-team.vscode-icons	13.0.0	2026-09-29T20:23:17.6Z	vscode-icons
+49	24362770	MS-vsliveshare.vsliveshare	1.1.122	2026-04-07T02:59:10.833Z	Live Share
+50	23105209	WakaTime.vscode-wakatime	30.2.1	2026-06-12T14:54:20.69Z	WakaTime
+51	22470739	ms-vscode.PowerShell	2026.1.2	2026-06-25T23:07:58.18Z	PowerShell
+52	22177987	xabikos.JavaScriptSnippets	1.8.0	2020-04-21T17:23:57.66Z	JavaScript (ES6) code snippets
+53	20483136	GitHub.github-vscode-theme	6.3.5	2024-10-03T05:36:07.743Z	GitHub Theme
+54	20029469	golang.Go	0.59.0	2026-10-22T15:44:59.093Z	Go
+55	19605095	christian-kohler.path-intellisense	2.10.0	2024-11-29T22:30:28.09Z	Path Intellisense
+56	19188995	ms-azuretools.vscode-containers	2.5.3	2026-10-19T14:14:02.957Z	Container Tools
+57	19026146	KevinRose.vsc-python-indent	1.21.0	2025-02-26T23:03:42.01Z	Python Indent
+58	18533922	ms-dotnettools.csdevkit	11.9.39	2026-10-28T17:40:06.097Z	C# Dev Kit
+59	18525605	streetsidesoftware.code-spell-checker	4.10.0	2026-10-15T06:24:24.82Z	Code Spell Checker
+60	18214701	batisteo.vscode-django	1.15.0	2023-12-27T16:25:34.407Z	Django
+61	18127002	bmewburn.vscode-intelephense-client	1.18.5	2026-06-21T00:51:36.067Z	PHP Intelephense
+62	17846877	dsznajder.es7-react-js-snippets	4.4.3	2022-02-18T13:12:52.393Z	ES7+ React/Redux/React-Native snippets
+63	17797279	njpwerner.autodocstring	0.6.1	2022-02-15T16:02:27.243Z	autoDocstring - Python Docstring Generator
+64	17504195	formulahendry.auto-close-tag	0.5.15	2023-12-19T04:21:57.027Z	Auto Close Tag
+65	17469373	donjayamanne.githistory	0.6.20	2023-03-05T09:33:58.38Z	Git History
+66	16136700	Dart-Code.dart-code	3.145.20261028	2026-10-28T14:37:41.563Z	Dart
+67	16093615	openai.chatgpt	26.51021.22027	2026-10-23T21:27:06.487Z	Codex – OpenAI’s coding agent
+68	15907308	wholroyd.jinja	0.0.10	2026-09-27T01:53:49.44Z	Jinja
+69	15802405	MS-CEINTL.vscode-language-pack-ja	1.131.2026090407	2026-09-04T07:54:54.64Z	Japanese Language Pack for Visual Studio Code
+70	15776043	xdebug.php-debug	1.40.2	2026-09-18T11:52:13.25Z	PHP Debug
+71	15603872	mhutchie.git-graph	1.30.0	2021-04-05T03:44:22.23Z	Git Graph
+72	15596156	octref.vetur	0.37.3	2023-02-23T05:33:12.263Z	Vetur
+73	15315872	EditorConfig.EditorConfig	0.18.2	2026-04-08T13:24:36.927Z	EditorConfig
+74	15027809	Dart-Code.flutter	3.145.20260930	2026-09-30T09:41:54.11Z	Flutter
+75	14845938	yzhang.markdown-all-in-one	3.6.3	2025-03-09T15:34:05.007Z	Markdown All in One
+76	14837695	bradlc.vscode-tailwindcss	0.16.0	2026-07-17T15:33:07.62Z	Tailwind CSS IntelliSense
+77	14696356	donjayamanne.python-environment-manager	1.2.7	2025-01-06T05:06:58.61Z	Python Environment Manager (deprecated)
+78	14451333	donjayamanne.python-extension-pack	1.7.0	2021-11-08T05:59:15.42Z	Python Extension Pack
+79	14230931	tomoki1207.pdf	1.2.2	2025-01-11T01:48:49.41Z	vscode-pdf
+80	13949955	ms-vscode.live-server	0.5.2026092301	2026-09-23T09:28:47.57Z	Live Preview
+81	13468379	oderwat.indent-rainbow	8.3.1	2022-04-09T22:34:09.1Z	indent-rainbow
+82	13370823	techer.open-in-browser	3.1.0	2026-09-29T02:37:44.73Z	open in browser
+83	12874711	zhuangtongfa.Material-theme	3.20.4	2026-10-28T08:43:31.97Z	One Dark Pro
+84	12801658	jeff-hykin.better-cpp-syntax	1.27.1	2024-07-12T21:39:17.357Z	Better C++ Syntax
+85	12468661	DavidAnson.vscode-markdownlint	0.62.1	2026-08-02T23:21:06.76Z	markdownlint
+86	12439797	cschlosser.doxdocgen	1.4.0	2022-02-25T11:04:01.52Z	Doxygen Documentation Generator
+87	12428551	christian-kohler.npm-intellisense	1.4.5	2023-10-07T18:26:02.893Z	npm Intellisense
+88	12244462	MS-CEINTL.vscode-language-pack-es	1.131.2026090407	2026-09-04T07:49:10.16Z	Spanish Language Pack for Visual Studio Code
+89	12146932	abusaidm.html-snippets	0.2.1	2017-12-28T15:52:55.08Z	HTML Snippets
+90	11097849	dracula-theme.theme-dracula	2.25.1	2024-07-17T12:56:35.03Z	Dracula Theme Official
+91	11088735	vadimcn.vscode-lldb	1.12.3	2026-08-23T23:50:18.863Z	CodeLLDB
+92	11023082	msjsdiag.debugger-for-chrome	4.13.0	2021-08-03T22:07:31.52Z	[Deprecated] Debugger for Chrome
+93	10939742	redhat.vscode-xml	0.29.2026102808	2026-10-28T08:24:32.827Z	XML
+94	10855194	ms-vscode.makefile-tools	0.13.37	2026-06-19T04:46:36.057Z	Makefile Tools
+95	10759011	aaron-bond.better-comments	3.1.0	2026-10-28T13:08:33.303Z	Better Comments
+96	10681355	HookyQR.beautify	1.5.0	2019-05-03T06:01:02.733Z	Beautify
+97	10555574	shd101wyy.markdown-preview-enhanced	0.8.40	2026-10-09T01:34:31.49Z	Markdown Preview Enhanced
+98	10190480	usernamehw.errorlens	3.30.0	2026-10-22T07:15:42.97Z	Error Lens
+99	10015404	Zignd.html-css-class-completion	1.20.0	2020-12-19T23:09:09.2Z	IntelliSense for CSS class names in HTML
+100	9935279	ms-mssql.mssql	1.47.0	2026-10-21T19:20:56.967Z	SQL Server (mssql)
+101	9866755	Angular.ng-template	22.2.0	2026-09-25T17:54:54.223Z	Angular Language Service
+102	9848825	Vue.volar	3.3.13	2026-10-10T14:38:37.66Z	Vue (Official)
+103	9729148	MS-CEINTL.vscode-language-pack-pt-BR	1.131.2026090407	2026-09-04T07:59:58.733Z	Portuguese (Brazil) Language Pack for Visual Studio Code
+104	9726781	naumovs.color-highlight	2.8.0	2024-03-14T11:50:25.35Z	Color Highlight
+105	9653857	TabNine.tabnine-vscode	3.335.0	2026-01-09T07:58:44.377Z	(Legacy) Tabnine
+106	9304364	MS-CEINTL.vscode-language-pack-ru	1.131.2026090407	2026-09-04T07:58:54.1Z	Russian Language Pack for Visual Studio Code
+107	9228525	ms-vscode.azure-account	0.13.0	2025-01-22T22:09:01.277Z	Azure Account
+108	9168063	ms-vscode.remote-server	1.6.2026092109	2026-09-21T09:23:18.883Z	Remote - Tunnels
+109	9163731	vscodevim.vim	1.32.4	2025-12-14T23:09:26.29Z	Vim
+110	9111208	ms-vscode-remote.vscode-remote-extensionpack	0.26.0	2024-10-24T14:02:38.103Z	Remote Development
+111	8894427	GitHub.vscode-github-actions	0.32.3	2026-07-15T18:19:01.35Z	GitHub Actions
+112	8893615	ms-vscode.cpp-devtools	0.7.1	2026-09-16T04:47:55.987Z	C/C++ DevTools
+113	8532239	GitHub.codespaces	1.18.16	2026-08-13T22:21:09.813Z	GitHub Codespaces
+114	8512480	ms-python.autopep8	2026.5.12951009	2026-10-22T11:14:41.94Z	autopep8
+115	8475151	mikestead.dotenv	1.0.1	2018-03-01T09:01:09.573Z	DotENV
+116	8153235	DotJoshJohnson.xml	2.5.1	2020-07-18T03:53:33.85Z	XML Tools
+117	8043466	pranaygp.vscode-css-peek	4.5.1	2026-10-23T03:38:35.467Z	CSS Peek
+118	7892876	Gruntfuggly.todo-tree	0.0.226	2023-04-12T18:43:52.93Z	Todo Tree
+119	7843024	CoenraadS.bracket-pair-colorizer	1.0.62	2021-12-13T21:01:33.937Z	Bracket Pair Colorizer
+120	7786678	ms-azuretools.vscode-azureresourcegroups	0.13.2	2026-09-28T17:20:23.933Z	Azure Resources
+121	7712440	ms-python.black-formatter	2026.7.12951004	2026-10-22T11:02:43.713Z	Black Formatter
+122	7703586	humao.rest-client	0.25.1	2022-08-19T14:24:34.753Z	REST Client
+123	7674976	eg2.vscode-npm-script	0.3.29	2022-10-04T10:55:20.807Z	npm
+124	7667221	rangav.vscode-thunder-client	3.1.0	2026-10-27T18:37:46.81Z	Thunder Client
+125	7647643	alefragnani.project-manager	13.1.0	2026-03-31T13:13:08.017Z	Project Manager
+126	7618472	ms-kubernetes-tools.vscode-kubernetes-tools	1.4.1	2026-07-24T00:17:28.853Z	Kubernetes
+127	7492597	ms-vscode.hexeditor	1.11.1	2024-11-03T16:10:07.62Z	Hex Editor
+128	7459231	franneck94.c-cpp-runner	9.5.0	2025-10-01T07:20:15.02Z	C/C++ Runner
+129	7437068	platformio.platformio-ide	3.3.4	2025-01-11T15:02:25.52Z	PlatformIO IDE
+130	7398050	akamud.vscode-theme-onedark	2.3.0	2022-10-08T14:12:57.92Z	Atom One Dark Theme
+131	7226807	MS-CEINTL.vscode-language-pack-ko	1.131.2026090407	2026-09-04T07:52:27.547Z	Korean Language Pack for Visual Studio Code
+132	7223366	ms-vscode.vscode-typescript-next	6.0.20260416	2026-04-17T00:16:25.09Z	JavaScript and TypeScript Nightly
+133	7158461	DEVSENSE.phptools-vscode	1.76.19462	2026-10-22T15:16:37.223Z	PHP
+134	7153699	mtxr.sqltools	0.28.6	2026-07-06T17:06:26.9Z	SQLTools
+135	7088112	GitHub.remotehub	0.66.2026101901	2026-10-19T09:36:10.647Z	GitHub Repositories
+136	6930099	vscjava.vscode-spring-initializr	0.12.1	2026-10-21T05:41:04.103Z	Spring Initializr Java Support
+137	6881553	HashiCorp.terraform	2.40.0	2026-07-23T11:53:36.377Z	HashiCorp Terraform
+138	6833336	GrapeCity.gc-excelviewer	4.2.66	2026-06-05T15:25:53.5Z	Spreadsheet Viewer
+139	6808602	DEVSENSE.composer-php-vscode	1.76.19462	2026-10-22T15:07:50.433Z	Composer
+140	6791872	rust-lang.rust-analyzer	0.4.3099	2026-10-28T01:04:13.873Z	rust-analyzer
+141	6763384	CoenraadS.bracket-pair-colorizer-2	0.2.4	2022-03-24T16:33:34.69Z	[Deprecated] Bracket Pair Colorizer 2
+142	6753467	ms-vscode.remote-repositories	0.45.2026101901	2026-10-19T09:30:49.81Z	Remote Repositories
+143	6748289	tht13.python	0.2.3	2016-02-21T22:18:07.54Z	Python for VSCode
+144	6693509	MS-CEINTL.vscode-language-pack-fr	1.131.2026090407	2026-09-04T07:49:41.877Z	French Language Pack for Visual Studio Code
+145	6688593	ms-edgedevtools.vscode-edge-devtools	2.1.13	2026-10-16T20:57:25.15Z	Microsoft Edge Tools for VS Code
+146	6651904	DEVSENSE.profiler-php-vscode	1.76.19462	2026-10-22T15:09:04.863Z	PHP Profiler
+147	6644937	Oracle.oracle-java	27.0.0	2026-10-05T14:10:51.12Z	Java
+148	6586418	burkeholland.simple-react-snippets	1.2.8	2024-04-08T15:02:19.03Z	Simple React Snippets
+149	6503832	codezombiech.gitignore	0.10.0	2025-03-01T02:05:09.14Z	gitignore
+150	6441326	xdebug.php-pack	1.0.3	2022-01-21T13:28:24.117Z	PHP Extension Pack
+151	6334361	ms-azuretools.vscode-azurefunctions	1.22.2	2026-09-25T19:12:22.833Z	Azure Functions
+152	6272315	msjsdiag.vscode-react-native	1.13.0	2024-03-25T00:51:19.663Z	React Native Tools
+153	6214526	ms-vscode.azure-repos	0.41.2026101901	2026-10-19T09:35:58.807Z	Azure Repos
+154	6180585	wayou.vscode-todo-highlight	1.0.5	2021-10-29T03:31:46.533Z	TODO Highlight
+155	6149358	ms-mssql.data-workspace-vscode	0.8.0	2026-10-21T19:10:18.347Z	Data Workspace
+156	6127172	zobo.php-intellisense	1.3.3	2023-09-14T23:31:20.497Z	PHP IntelliSense
+157	6082519	danielpinto8zz6.c-cpp-compile-run	1.0.92	2026-04-04T01:36:21.493Z	C/C++ Compile Run
+158	6056130	DEVSENSE.intelli-php-vscode	0.12.17700	2025-07-28T15:57:29.03Z	IntelliPHP - AI Suggestions for PHP
+159	6010681	vmware.vscode-spring-boot	2.5.2026102700	2026-10-27T01:09:50.853Z	Spring Boot Tools
+160	6006660	ms-mssql.sql-database-projects-vscode	1.9.0	2026-10-21T19:10:20.853Z	SQL Database Projects
+161	5940946	sidthesloth.html5-boilerplate	1.1.1	2020-09-28T13:20:33.517Z	HTML Boilerplate
+162	5938793	Equinusocio.vsc-material-theme-icons	3.9.2	2025-10-06T10:04:12.927Z	Material Theme Icons — Deprecated
+163	5845165	felixfbecker.php-intellisense	2.3.14	2019-12-26T18:23:56.44Z	PHP IntelliSense
+164	5843126	James-Yu.latex-workshop	10.20.0	2026-10-17T06:55:52.18Z	LaTeX Workshop
+165	5832166	writenothing.no-code	2.0.2	2020-12-03T17:27:55.38Z	No Code
+166	5813848	MS-CEINTL.vscode-language-pack-de	1.131.2026090407	2026-09-04T07:52:07.27Z	German Language Pack for Visual Studio Code
+167	5763139	saoudrizwan.claude-dev	4.1.26	2026-10-26T09:19:53.883Z	Cline
+168	5647475	hbenl.vscode-test-explorer	2.22.1	2024-09-22T08:59:33.53Z	Test Explorer UI
+169	5594232	ms-mssql.sql-bindings-vscode	0.4.1	2025-04-30T20:32:15.28Z	SQL Bindings
+170	5581655	wix.vscode-import-cost	3.3.0	2022-04-10T08:34:31.73Z	Import Cost
+171	5579957	Google.geminicodeassist	2.104.0	2026-10-08T15:20:29.98Z	Gemini Code Assist
+172	5533579	firefox-devtools.vscode-firefox-debug	2.15.0	2025-02-28T16:24:40.797Z	Debugger for Firefox
+173	5527408	MS-vsliveshare.vsliveshare-audio	0.1.93	2023-01-27T02:34:16.443Z	[Deprecated] Live Share Audio
+174	5510250	steoates.autoimport	1.5.4	2021-04-15T15:34:51.077Z	Auto Import
+175	5485697	johnpapa.Angular2	22.0.0	2026-07-20T00:35:58.977Z	Angular Snippets (Version 22)
+176	5449699	bierner.markdown-mermaid	1.32.1	2026-05-21T00:11:05.957Z	Markdown Preview Mermaid Support
+177	5391645	vscjava.vscode-spring-boot-dashboard	0.15.0	2026-10-15T07:46:50.197Z	Spring Boot Dashboard
+178	5358281	Blackboxapp.blackbox	2.8.53	2026-03-11T21:30:34.6Z	BLACKBOXAI #1 AI Coding Agent and Coding Copilot
+179	5349653	ms-vscode.test-adapter-converter	0.2.1	2024-11-04T23:20:48.797Z	Test Adapter Converter
+180	5237689	MS-CEINTL.vscode-language-pack-zh-hant	1.131.2026090407	2026-09-04T08:02:50.503Z	Chinese (Traditional) Language Pack for Visual Studio Code
+181	5221323	AmazonWebServices.aws-toolkit-vscode	4.17.0	2026-10-05T22:04:57.55Z	AWS Toolkit
+182	5201038	alefragnani.Bookmarks	14.1.1	2026-04-08T11:45:30.363Z	Bookmarks
+183	5076860	austin.code-gnu-global	0.2.2	2017-05-13T23:57:26.327Z	C++ Intellisense
+184	4999971	tamasfe.even-better-toml	0.21.2	2024-12-20T17:47:36.94Z	Even Better TOML
+185	4908478	charliermarsh.ruff	2026.92.0	2026-10-27T17:21:11.937Z	Ruff
+186	4897914	onecentlin.laravel-blade	1.38.0	2026-03-31T17:13:09.73Z	Laravel Blade Snippets
+187	4858209	hollowtree.vue-snippets	1.0.4	2020-12-03T03:08:20.75Z	Vue 3 Snippets
+188	4828254	rvest.vs-code-prettier-eslint	6.0.0	2024-02-06T19:19:08.337Z	Prettier ESLint
+189	4787472	vmware.vscode-boot-dev-pack	0.2.2	2025-01-28T17:23:25.743Z	Spring Boot Extension Pack
+190	4772338	alexcvzz.vscode-sqlite	0.14.1	2022-06-04T16:19:15.067Z	SQLite
+191	4752783	SonarSource.sonarlint-vscode	6.2.0	2026-10-23T19:33:52.323Z	SonarQube for IDE
+192	4594414	ms-vscode.vscode-typescript-tslint-plugin	1.3.4	2022-03-31T23:34:41.673Z	TSLint
+193	4537994	ziyasal.vscode-open-in-github	1.3.6	2018-10-01T21:09:39.35Z	Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !
+194	4509326	magicstack.MagicPython	1.1.0	2018-10-04T22:13:59.453Z	MagicPython
+195	4497800	johnpapa.vscode-peacock	4.5.1	2026-09-29T19:18:22.56Z	Peacock
+196	4454577	WallabyJs.quokka-vscode	1.0.769	2026-08-20T02:21:10.667Z	Quokka.js
+197	4445347	Continue.continue	2.1.0	2026-06-19T00:46:59.05Z	Continue - open-source AI code agent
+198	4385327	cweijan.dbclient-jdbc	1.4.6	2025-06-15T08:31:52.643Z	Database Client JDBC
+199	4320914	ms-dotnettools.vscodeintellicode-csharp	2.2.3	2024-11-13T06:10:01.273Z	IntelliCode for C# Dev Kit
+200	4301182	kisstkondoros.vscode-gutter-preview	0.32.2	2024-11-30T20:10:18.34Z	Image preview
+201	4296602	Equinusocio.vsc-material-theme	34.7.16	2025-10-06T10:01:42.23Z	Material Theme — Deprecated
+202	4279325	Shan.code-settings-sync	3.4.3	2019-09-23T13:05:45.24Z	Settings Sync
+203	4259036	yzane.markdown-pdf	2.2.0	2026-07-29T16:06:51.763Z	Markdown PDF
+204	4248253	hediet.vscode-drawio	1.17.261027058	2026-10-27T09:11:46.357Z	Draw.io Integration
+205	4234888	teabyii.ayu	1.5.0	2026-10-16T21:57:09.24Z	Ayu
+206	4205425	ZainChen.json	2.0.2	2020-11-08T05:23:08.24Z	json
+207	4186057	monokai.theme-monokai-pro-vscode	2.0.16	2026-10-03T11:36:24.79Z	Monokai Pro
+208	4047634	mgmcdermott.vscode-language-babel	0.0.40	2023-09-25T15:17:41.083Z	Babel JavaScript
+209	3992883	adpyke.codesnap	1.3.4	2021-07-02T15:18:21.71Z	CodeSnap
+210	3979869	lonefy.vscode-JS-CSS-HTML-formatter	0.2.3	2017-03-31T07:08:24.48Z	JS-CSS-HTML Formatter
+211	3977462	Codeium.codeium	1.49.2	2025-06-16T06:52:20.233Z	Windsurf Plugin (formerly Codeium): AI Coding Autocomplete and Chat for Python, JavaScript, TypeScript, and more
+212	3925530	thekalinga.bootstrap4-vscode	6.1.0	2019-03-11T07:52:56.36Z	Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+213	3920472	vsls-contrib.gitdoc	0.2.3	2024-12-26T20:45:59.673Z	GitDoc
+214	3901964	waderyan.gitblame	14.0.0	2026-10-19T21:59:09.5Z	Git Blame
+215	3901814	Orta.vscode-jest	6.4.4	2025-06-30T01:08:40.31Z	Jest
+216	3888421	rebornix.Ruby	0.28.1	2021-01-08T00:04:34.697Z	Ruby
+217	3808271	donjayamanne.git-extension-pack	0.1.3	2017-08-06T07:44:40.897Z	Git Extension Pack
+218	3764879	johnpapa.winteriscoming	1.5.0	2026-07-20T17:27:13.833Z	Winter is Coming Theme
+219	3758245	jebbs.plantuml	2.18.1	2024-04-11T06:11:05.473Z	PlantUML
+220	3728631	Equinusocio.vsc-community-material-theme	1.4.7	2023-11-30T15:08:31.533Z	Community Material Theme
+221	3718859	qwtel.sqlite-viewer	26.9.1	2026-09-24T12:18:14.433Z	SQLite Viewer
+222	3711677	MS-CEINTL.vscode-language-pack-it	1.131.2026090407	2026-09-04T07:53:54.65Z	Italian Language Pack for Visual Studio Code
+223	3671568	ms-azuretools.vscode-cosmosdb	0.39.0	2026-10-28T10:20:55.6Z	Azure Cosmos DB
+224	3652774	rodrigovallades.es7-react-js-snippets	1.9.3	2018-12-13T20:07:46.607Z	ES7 React/Redux/GraphQL/React-Native snippets
+225	3640803	inferrinizzard.prettier-sql-vscode	1.6.0	2023-02-15T16:26:20.303Z	Prettier SQL VSCode
+226	3629024	shardulm94.trailing-spaces	0.4.4	2026-06-23T02:02:28.13Z	Trailing Spaces
+227	3614062	stylelint.vscode-stylelint	2.2.1	2026-03-31T14:41:32.987Z	Stylelint
+228	3611972	georgewfraser.vscode-javac	0.2.49	2026-07-06T18:11:29.113Z	Java Language Support
+229	3604298	sdras.night-owl	2.1.1	2024-12-31T21:24:56.957Z	Night Owl
+230	3560565	Prisma.prisma	31.13.0	2026-10-15T09:32:11.91Z	Prisma
+231	3551109	REditorSupport.r	3.3.20261027	2026-10-27T03:56:30.703Z	R
+232	3536446	sdras.vue-vscode-snippets	3.2.0	2024-11-19T23:37:31.47Z	Vue VSCode Snippets
+233	3533870	ms-python.pylint	2026.7.12951004	2026-10-22T10:55:32.07Z	Pylint
+234	3522478	ms-vscode.js-debug-nightly	2026.10.2614	2026-10-26T22:13:22.11Z	JavaScript Debugger (Nightly)
+235	3492036	vincaslt.highlight-matching-tag	0.11.0	2023-03-09T10:48:32.617Z	Highlight Matching Tag
+236	3490633	GitLab.gitlab-workflow	7.3.3	2026-10-27T11:33:30.223Z	GitLab
+237	3418138	ms-azuretools.vscode-azureappservice	0.27.0	2026-05-28T21:24:35.213Z	Azure App Service
+238	3414271	formulahendry.auto-complete-tag	0.1.0	2018-08-17T08:56:34.257Z	Auto Complete Tag
+239	3406265	Atlassian.atlascode	4.1.203	2026-10-27T15:42:15.3Z	Atlassian: Jira, Rovo Dev, Bitbucket
+240	3371044	CS50.extension-uninstaller	1.0.10	2025-07-06T00:16:03.657Z	Extension Uninstaller
+241	3327351	awwsky.csharpfixformatfixed	0.0.93	2025-11-27T16:07:39.107Z	C#/.NET Compiler + AIO Toolkit
+242	3326533	rifi2k.format-html-in-php	1.7.0	2020-09-29T09:32:28.707Z	Format HTML in PHP
+243	3255570	Syler.sass-indented	1.8.33	2025-02-14T16:52:27.927Z	Sass (.sass only)
+244	3227282	mongodb.mongodb-vscode	1.18.0	2026-09-25T19:09:05.01Z	MongoDB for VS Code
+245	3216031	brapifra.phpserver	3.0.2	2021-04-14T14:27:31.75Z	PHP Server
+246	3211460	llvm-vs-code-extensions.vscode-clangd	0.6.0	2026-05-21T20:19:43.697Z	clangd
+247	3197700	onecentlin.laravel5-snippets	1.19.1	2025-03-29T07:41:53.773Z	Laravel Snippets
+248	3189599	MS-CEINTL.vscode-language-pack-pl	1.131.2026090407	2026-09-04T07:57:03.41Z	Polish Language Pack for Visual Studio Code
+249	3185528	yandeu.five-server	0.4.0	2026-05-12T11:17:29.45Z	Live Server (Five Server)
+250	3177101	redhat.fabric8-analytics	1.1.0	2026-09-25T09:30:45.61Z	Red Hat Dependency Analytics
+251	3168232	dongli.python-preview	0.0.4	2018-09-25T12:16:41.793Z	Python Preview
+252	3167388	ms-playwright.playwright	1.1.20	2026-10-16T19:52:23.013Z	Playwright Test for VSCode
+253	3140325	jasonnutter.search-node-modules	1.3.0	2018-03-03T18:27:06.48Z	Search node_modules
+254	3077115	quicktype.quicktype	23.0.170	2024-05-31T15:47:50.433Z	Paste JSON as Code
+255	3076248	wingrunr21.vscode-ruby	0.28.0	2021-01-05T23:54:52.467Z	VSCode Ruby
+256	3033735	cweijan.vscode-mysql-client2	9.0.2	2026-07-04T09:45:57.07Z	MySQL
+257	3028634	tht13.html-preview-vscode	0.2.5	2018-12-13T14:23:36.29Z	HTML Preview
+258	3014911	zxh404.vscode-proto3	0.5.5	2021-11-06T12:37:24.92Z	vscode-proto3
+259	2999094	enkia.tokyo-night	1.1.2	2025-02-05T19:37:57.447Z	Tokyo Night
+260	2979009	mohsen1.prettify-json	0.0.3	2015-12-10T06:50:46.693Z	Prettify JSON
+261	2963444	bierner.markdown-preview-github-styles	2.2.0	2025-06-12T22:32:54.813Z	Markdown Preview Github Styling
+262	2961346	azemoh.one-monokai	0.5.2	2024-08-20T01:20:30.797Z	One Monokai Theme
+263	2956629	ms-azuretools.vscode-azurestorage	0.17.2	2026-05-28T21:08:30.473Z	Azure Storage
+264	2933597	Blackboxapp.blackboxagent	3.7.0	2026-05-22T03:40:34.33Z	Blackbox Agent - Coding Copilot
+265	2863503	eg2.tslint	1.0.47	2021-05-18T12:10:02.717Z	TSLint (deprecated)
+266	2844894	GraphQL.vscode-graphql	0.13.4	2026-05-14T18:57:54.943Z	GraphQL: Language Feature Support
+267	2843949	mathematic.vscode-pdf	0.2.6	2026-09-28T09:46:58.02Z	PDF Viewer
+268	2840413	docker.docker	0.18.0	2025-10-15T17:00:34.87Z	Docker DX
+269	2819425	GraphQL.vscode-graphql-syntax	1.3.13	2026-09-09T14:32:47.713Z	GraphQL: Syntax Highlighting
+270	2789323	svelte.svelte-vscode	110.3.2	2026-10-16T13:37:53.87Z	Svelte for VS Code
+271	2773516	ms-toolsai.vscode-ai	1.5.2026102801	2026-10-28T02:35:53.427Z	Azure Machine Learning
+272	2763049	xabikos.ReactSnippets	2.4.0	2019-10-29T21:42:47.85Z	Reactjs code snippets
+273	2748964	Alibaba-Cloud.tongyi-lingma	2.6.10	2026-09-22T03:31:23.423Z	Qoder CN （Formerly Lingma） - Alibaba Cloud AI Agentic Coding Platform
+274	2748909	foxundermoon.shell-format	7.2.8	2025-07-15T13:48:32.69Z	shell-format
+275	2747859	tonybaloney.vscode-pets	1.36.0	2026-07-24T01:05:19.527Z	vscode-pets
+276	2739204	amiralizadeh9480.laravel-extra-intellisense	0.7.4	2026-07-15T08:43:16.017Z	Laravel Extra Intellisense
+277	2737714	ms-vscode.notepadplusplus-keybindings	1.0.7	2021-03-26T22:11:47.393Z	Notepad++ keymap
+278	2736525	VisualStudioToolsForUnity.vstuc	1.3.2	2026-09-30T08:56:18.28Z	Unity
+279	2726878	Postman.postman-for-vscode	1.19.2	2026-10-22T09:46:11.94Z	Postman
+280	2719071	Mikael.Angular-BeastCode	17.0.4	2024-02-17T08:54:33.16Z	Angular 17 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+281	2718030	glenn2223.live-sass	7.1.0	2026-04-14T00:55:22.013Z	Live Sass Compiler
+282	2715883	MS-vsliveshare.vsliveshare-pack	0.4.0	2020-06-02T19:13:57.54Z	Live Share Extension Pack
+283	2699214	xaver.clang-format	1.9.0	2019-01-22T12:26:49.91Z	Clang-Format
+284	2691779	george-alisson.html-preview-vscode	0.2.5	2018-11-29T02:12:30.467Z	HTML Preview
+285	2683840	formulahendry.vscode-mysql	0.5.0	2023-10-17T09:47:57.017Z	MySQL
+286	2668470	salesforce.salesforcedx-vscode-core	68.7.3	2026-10-28T08:16:26.3Z	Salesforce CLI
+287	2659968	whizkydee.material-palenight-theme	2.0.5	2026-09-16T23:40:21.553Z	Palenight Theme
+288	2646448	icrawl.discord-vscode	5.9.2	2025-04-12T16:00:01.977Z	Discord Presence
+289	2630099	Vue.vscode-typescript-vue-plugin	1.8.27	2023-12-26T10:26:43.827Z	TypeScript Vue Plugin (Volar)
+290	2623935	ms-toolsai.vscode-ai-remote	1.5.2026102800	2026-10-28T02:35:13.473Z	Azure Machine Learning - Remote
+291	2616067	ryannaddy.laravel-artisan	0.0.33	2026-04-17T22:51:12.56Z	Laravel Artisan
+292	2606142	ritwickdey.live-sass	3.0.0	2018-07-11T18:12:21.563Z	Live Sass Compiler
+293	2605381	ms-vscode.azurecli	0.6.0	2024-01-19T23:50:59.02Z	Azure CLI Tools
+294	2595839	MS-CEINTL.vscode-language-pack-cs	1.131.2026090407	2026-09-04T07:48:12.783Z	Czech Language Pack for Visual Studio Code
+295	2589950	LittleFoxTeam.vscode-python-test-adapter	0.8.2	2024-02-03T10:13:16.667Z	Python Test Explorer for Visual Studio Code
+296	2566812	2gua.rainbow-brackets	0.0.6	2016-05-12T05:28:53.58Z	Rainbow Brackets
+297	2566103	RobbOwen.synthwave-vscode	0.1.20	2025-07-17T15:02:41.347Z	SynthWave '84
+298	2558028	pflannery.vscode-versionlens	1.29.2	2026-10-21T00:05:57.913Z	Version Lens
+299	2547973	DanielSanMedium.dscodegpt	3.24.79	2026-10-23T02:42:49.803Z	CodeGPT: AI Coding Agents & Chat
+300	2535955	janisdd.vscode-edit-csv	0.11.9	2026-04-03T11:42:21.233Z	Edit CSV

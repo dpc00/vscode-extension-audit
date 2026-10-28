@@ -1,0 +1,18 @@
+# Only real secrets and generated junk are ignored; everything else is published on purpose.
+.git/
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+venv/
+.env
+credentials.json
+client_secret*.json
+client_secrets*.json
+
+# --- omp .gitignore basics (2026-11-09) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
