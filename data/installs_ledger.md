@@ -60,3 +60,19 @@ One line per install and per removal, written BEFORE the install. Everything liv
 
 2026-10-28: install tamasfe.even-better-toml in the portable VS Code (full feature test: diagnostics, formatter settings, schema, completion, hover, folding; the earlier row was a smoke test). Removal follows.
 2026-10-28 removal: tamasfe.even-better-toml 0.21.2 uninstalled from the portable VS Code, window reloaded, extensions list shows only dpc00.vscode-mcp (folder stays on disk marked obsolete until the next restart). Work folder settings reset; my test taplo.toml went to the Recycle Bin. Filed taplo#894.
+
+2026-10-28: install mechanical.rainbow-csv in the portable VS Code (full feature test: column colouring, tab/semicolon/pipe delimiters, RBQL query, align/shrink, column info, settings; the earlier row was a smoke test). Removal follows.
+(Correction: the extension id is mechatroner.rainbow-csv.)
+2026-10-28 removal: mechatroner.rainbow-csv 3.24.1 uninstalled from the portable VS Code (folder stays on disk marked obsolete until the next restart). Work folder test files recycled, settings reset. No bug found.
+
+2026-10-29: install DavidAnson.vscode-markdownlint in the portable VS Code (full feature test: rule diagnostics, settings (config, customRules, ignore, run), fix commands, ignore comments, .markdownlint.json files; the earlier row was a smoke test). Removal follows.
+2026-10-29 removal: DavidAnson.vscode-markdownlint 0.62.1 uninstalled from the portable VS Code, window reloaded (folder stays on disk marked obsolete until the next restart). Work folder test files recycled, settings reset. No bug found.
+
+2026-10-29: install EditorConfig.EditorConfig in the portable VS Code (full feature test: indent, end_of_line, trim_trailing_whitespace, insert_final_newline, charset, max_line_length, glob sections, root, generateConfig; the earlier row was a smoke test). Removal follows.
+2026-10-29 removal: EditorConfig.EditorConfig 0.18.2 uninstalled from the portable VS Code (folder stays on disk marked obsolete until the next restart). Work folder test files recycled, settings reset. No new bug (already reported: editorconfig-vscode#458).
+
+2026-10-29: install formulahendry.auto-close-tag in the portable VS Code (full feature test: closing tag on > and /, languages, excludedTags, fullMode, insertSpaceBeforeSelfClosingTag, enableAutoCloseSelfClosingTag, SublimeText3Mode; the earlier row was a smoke test). Removal follows.
+2026-10-29 removal: formulahendry.auto-close-tag 0.5.15 uninstalled from the portable VS Code (folder stays on disk marked obsolete until the next restart). Work folder test files recycled, settings reset. No new bug (already reported: vscode-auto-close-tag#17, #124, #229 generics in TypeScript; #25 tags already closed).
+
+2026-10-29: install formulahendry.auto-rename-tag in the portable VS Code (full feature test: renaming the paired tag on edit in xml/jsx/md, settings, languages; the earlier row was a smoke test). Removal follows.
+2026-10-29 removal: formulahendry.auto-rename-tag 0.1.10 uninstalled from the portable VS Code (folder stays on disk marked obsolete until the next restart). Work folder test files recycled, settings reset. No bug found.
