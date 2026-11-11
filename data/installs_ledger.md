@@ -76,3 +76,8 @@ One line per install and per removal, written BEFORE the install. Everything liv
 
 2026-10-29: install formulahendry.auto-rename-tag in the portable VS Code (full feature test: renaming the paired tag on edit in xml/jsx/md, settings, languages; the earlier row was a smoke test). Removal follows.
 2026-10-29 removal: formulahendry.auto-rename-tag 0.1.10 uninstalled from the portable VS Code (folder stays on disk marked obsolete until the next restart). Work folder test files recycled, settings reset. No bug found.
+
+2026-10-29 removal: formulahendry.auto-rename-tag 0.1.10 uninstalled from the portable VS Code (folder stays on disk marked obsolete until the next restart). Work folder test files recycled, settings reset. No bug found.
+
+2026-11-11: install twxs.cmake in the portable VS Code (full feature test: CMake syntax scoping, completions, snippets, comment toggling, settings; the 2026-10-28 row was a sandbox smoke test). Removal follows.
+2026-11-11 removal: twxs.cmake 0.0.17 uninstalled from the portable VS Code, window reloaded, list_extensions clean (only dpc00.vscode-mcp). Fixtures CMakeLists.txt and CMakeCache.txt recycled, bogus .vscode/settings.json removed, Welcome tab only. Record-only result (upstream dead since 2019-10-04); three harness findings from this round recorded in the baton.
