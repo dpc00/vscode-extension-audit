@@ -43,6 +43,7 @@ Public method: `PROCEDURE.md` in this repository. This file is the working copy 
 ## Traps
 
 - `install_extension` goes through VS Code's own CLI; `workbench.extensions.installExtension` opens a "trust the publisher?" dialog that nothing can answer.
+- `workbench.action.closeAllEditors` on a dirty tab raises VS Code's native Save dialog and blocks the workbench behind the call (seen 2026-11-11 in the Bookmarks round). Save, revert, or `close_file` with `discard: true` (0.4.2 reverts first) before closing in bulk; answering the dialog needs computer-use and the Escape lock then needs the API reconnect.
 - A freshly installed extension appears in `list_extensions` only after `reload_window`; an uninstalled one stays listed until the same reload, and its folder is deleted at VS Code's next start (`data\extensions\.obsolete`). Uninstalling an extension that others depend on can fail.
 - `reload_window` answers first and the server restarts; wait about 12 s before the next call.
 - Extension ids come back with the publisher's own capitalisation; paths in results use a lower-case drive letter.
