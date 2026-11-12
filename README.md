@@ -1,5 +1,10 @@
 # VS Code extension audit (2026)
 
+> **Status (2026-11-12): stopped.** The audit is not continuing: the cost of model usage is more
+> than it is worth to run further rounds. The 15 filed issues remain open and will be answered if
+> maintainers reply; no new testing rounds are planned. The tooling built for it,
+> [vscode-mcp](https://github.com/dpc00/vscode-mcp), continues on its own.
+
 ## The infrastructure wall: help wanted
 
 The method works, and it finds real bugs: 51 extensions tested, 14 issues filed on 10 repositories. What stops it is speed. One machine tests one extension at a time, and the 51 records took about eleven hours of wall-clock time (2026-10-28 19:43 to 2026-10-29 06:28 UTC, idle gaps included). A full feature test ran from about 15 minutes to over an hour; the longest single episode was 144 minutes, roughly 80 of them waiting. The Marketplace's long tail cannot be covered like this.

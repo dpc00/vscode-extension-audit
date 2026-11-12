@@ -7,6 +7,23 @@ metadata:
 
 **State at the end of 2026-10-28.** The Windows Sandbox and the bulk smoke-test pipeline are gone (his orders: "tear it down", "start over", "no tasks or monitors"). Testing is one extension at a time, in the portable VS Code (`C:\Users\donal\tools\vscode_portable\app`, work folder `...\work`) driven through vscode-mcp 0.4.0 on port 9560.
 
+## STOPPED 2026-11-12 (Donald: "my opinion is I cannot afford it. No more.")
+
+The audit is over as a going concern. Do NOT restart testing rounds, rebuild a queue, or resume
+on inertia - the reason is cost (model usage), and it is his decision, not a state to be repaired.
+
+- Final state: 52 rows in RESULTS.tsv (every Sandbox-era smoke row redone except a handful of
+  remaining empty rows), 15 issues filed (1 fixed upstream the same day: vscode-ionic-snippets
+  #32; the last filed was LiveServer #3334 on 2026-11-11). Everything committed and pushed.
+- What remains allowed: answering maintainer replies on the 15 open issues (mail only), and any
+  vscode-mcp work Donald explicitly asks for.
+- The durable asset is vscode-mcp 0.6.2 (batch, expect, wait_for/wait_config, run_shell, pid-based
+  reload recovery, .vsix installs) - built by and documented from this audit.
+- The speed work of the last round is recorded below and in the skill; nothing about the stop
+  undoes it.
+
+**State at the end of 2026-10-28 (historical).** The Windows Sandbox and the bulk smoke-test pipeline are gone (his orders: "tear it down", "start over", "no tasks or monitors"). Testing is one extension at a time, in the portable VS Code (`C:\Users\donal\tools\vscode_portable\app`, work folder `...\work`) driven through vscode-mcp 0.4.0 on port 9560.
+
 **Done:** `RESULTS.tsv (repo root, like sublime-package-audit)` has 50 rows, all real tests (37 no defect, 13 findings). 8 issues posted (list in `README.md`): autoDocstring 315, doxdocgen 349/350/351, vsc-python-indent 135, indent-rainbow 208, B5-Snippets 18, vscode-ionic-snippets 32. Both audit repos and vscode-mcp are public; the audit repo is ONE commit per day, amended and force-pushed (`--force-with-lease`).
 
 **Method that works:** read the README and the extension's code, install via `install_extension`, reload, then one `batch` call per group of cases (create_file, open_file with line/character, run_command, get_text), compare with exact expected text, uninstall, reload, verify clean, `tools\rec.ps1`, issue if the defect is real and not already reported. See `PROCEDURE.md` and the skill.
