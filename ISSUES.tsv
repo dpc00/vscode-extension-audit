@@ -13,3 +13,4 @@ yzhang-gh/vscode-markdown	1592	Toggle bold/italic/strikethrough/code on a select
 yzhang-gh/vscode-markdown	1593	Table formatter rewrites tables inside fenced code blocks, indented code, HTML comments and math blocks	open	2026-10-29		https://github.com/yzhang-gh/vscode-markdown/issues/1593		2026-10-28	issue
 prettier/prettier-vscode	4015	prettier.disableLanguages has no effect: the setting is declared but never read by the extension	open	2026-10-29		https://github.com/prettier/prettier-vscode/issues/4015		2026-10-28	issue
 tamasfe/taplo	894	reorderInlineTables / reorder_inline_tables has no effect	open	2026-10-29		https://github.com/tamasfe/taplo/issues/894		2026-10-28	issue
+ritwickdey/vscode-live-server	3334	cors setting is documented as adding 'Access-Control-Allow-Origin: *' but reflects any Origin with credentials instead	open	2026-11-11		https://github.com/ritwickdey/vscode-live-server/issues/3334		2026-11-11	issue
