@@ -1,84 +1,93 @@
 # VS Code extension audit
 
-Independent security and functionality testing of the most-installed VS Code
-extensions, one install-test-uninstall round each.
+This project tests popular VS Code extensions by hand. Each extension is
+installed, exercised, and then removed, one at a time.
 
-This is the counterpart of
-[`sublime-package-audit`](https://github.com/SudoKillMe/sublime-package-audit)
-(the same method on Sublime Text packages).
+It is the VS Code counterpart of
+[`sublime-package-audit`](https://github.com/SudoKillMe/sublime-package-audit),
+which does the same thing for Sublime Text packages.
 
-## How it works
+## How a test works
 
-- Each extension is installed into **portable VS Code**
-  (`C:\Users\donal\tools\vscode_portable`, stock user settings, workspace trust
-  disabled) and driven headlessly through
-  [`vscode-mcp`](https://github.com/SudoKillMe/vscode-mcp) (MCP bridge over the
-  generated command tools + the extension API), with **real user keypresses**
-  sent via `SendInput`/`SendMessage` for editor typing and chords. Before each
-  round `node --test` in `vscode-mcp` must pass.
-- Every behavior is checked **against the extension's own claims**: its README,
-  its `package.json` settings, its docs. Deviations are findings, each with a
-  reproducible root cause read from the source.
-- Results are classified as **verified** (seen to work), **defect** (does not
-  work), **partial** (works in some paths, fails in others), or **not covered**
-  (nothing reachable proves it). A defect is only filed when its root cause is
-  confirmed in code.
-- Each extension is uninstalled and the host restored after its round.
+1. Install the extension into a portable copy of VS Code
+   (`C:\Users\donal\tools\vscode_portable`) with default settings and workspace
+   trust turned off.
+2. Drive it through [`vscode-mcp`](https://github.com/SudoKillMe/vscode-mcp),
+   an MCP bridge that calls the editor's commands and API directly. Typing and
+   keyboard shortcuts go in as real keypresses. Before each round, vscode-mcp's
+   own test suite must pass.
+3. Check every claim the extension makes — its README, the settings it
+   declares, its documentation — by actually using the feature.
+4. When something is wrong, find the cause in the extension's source code
+   before reporting it.
+5. Uninstall the extension and put the editor back the way it was.
 
-## Scale
+We never run an extension's own test suite. Every check is something a user
+could do in the editor.
 
-| Metric | Value |
+## Results so far
+
+| | |
 | --- | --- |
 | Extensions tested | 57 |
-| Full test rounds | 38 |
-| Remaining smoke-test rows | 1 (`tomoki1207.pdf`, deliberately untested) |
-| Issues filed (all open) | 16 |
-| Extension test suites run | 0 — every check is a live drive in real VS Code, never `npm test` |
+| Fully tested | 38 |
+| Smoke-tested only | 18 |
+| Not yet tested | 1 (`tomoki1207.pdf` — deliberately skipped) |
+| Bugs filed upstream | 16 (all still open) |
 
-## What was found
+The full record is [`RESULTS.tsv`](RESULTS.tsv); filed bugs are in
+[`ISSUES.tsv`](ISSUES.tsv).
 
-Failures cluster into a few shapes:
+## What kinds of bugs we found
 
-| Shape | Example |
-| --- | --- |
-| Declared but unread | `prettier.disableLanguages`, `evenBetterToml.formatter.reorderInlineTables` |
-| Falsy-coercion bugs | `rangeStart 0` disables Format Selection (prettier-vscode) |
-| Comment-blind parsing | selectors inside CSS comments offered as completions (vscode-html-css) |
-| Lossy serialization | `JSON.stringify` round trip silently corrupts large integers (prettify-json) |
-| Host overclaim | `liveServer.settings.host` documented as bind address, actually 0.0.0.0 |
-| Packaging rot | 1,217 `node_modules` files shipped via `dependencies`; missing `.wasm` breaks activation |
-| Placeholder crash | snippet body with `${1:…}` fed to prettier crashes generation (es7-react-js-snippets) |
-| Case-sensitive path keys | Windows path casing spawns duplicate servers (open-in-browser) |
+- **Settings that do nothing.** Declared in `package.json` but never read by
+  the code (`prettier.disableLanguages`,
+  `evenBetterToml.formatter.reorderInlineTables`).
+- **Off-by-one-style logic errors.** `rangeStart 0` is treated as "no
+  selection", so Format Selection formats the whole file (prettier-vscode).
+- **Parsers that ignore comments.** CSS selectors inside comments are offered
+  as completions and pass validation (vscode-html-css).
+- **Data loss on round trips.** `JSON.stringify` silently corrupts integers
+  above 2^53 (prettify-json).
+- **Documentation that overpromises.** `liveServer.settings.host` claims to
+  set the bind address but the server still listens on `0.0.0.0`.
+- **Packaging problems.** 1,217 `node_modules` files shipped inside an
+  extension; a missing `.wasm` file that stops another from activating at all.
+- **Crashes on valid input.** Snippet bodies containing `${1:…}` placeholders
+  crash the prettier-based generator (es7-react-js-snippets).
+- **Windows path bugs.** Path casing differences make the same folder get
+  served twice (open-in-browser).
 
-## Scope and limits
+## Limits
 
-- **Runs on Windows only.** Every result is from portable VS Code on Windows;
-  nothing is claimed for Linux or macOS.
-- **Anything needing paid accounts or remote services** is out of scope —
-  these are local-first extensions.
-- **What the UI hid.** Where a surface is unreachable from the API (e.g. a
-  dirty-file save dialog, Alt+B keys Chromium drops in the background), the row
-  says so instead of guessing.
-- **Dormant upstreams.** Defects in unmaintained extensions are recorded in the
-  ledger, not filed.
+- **Windows only.** All results come from portable VS Code on Windows. Nothing
+  is claimed about Linux or macOS.
+- **No accounts or remote services.** These are local extensions; anything
+  needing a paid account or a live backend is out of scope.
+- **Some UI is unreachable.** A few surfaces can't be driven through the API
+  (for example a save-changes dialog, or keys the background browser drops).
+  Those rows say "not covered" rather than guessing.
+- **Dead upstreams.** Bugs in unmaintained extensions are written down in the
+  results but not filed.
 
 ## Files
 
-| File | Purpose |
+| File | What it is |
 | --- | --- |
-| [`PROCEDURE.md`](PROCEDURE.md) | The full audit method, step by step |
-| [`RESULTS.tsv`](RESULTS.tsv) | One row per tested extension: date, result, ledger line |
-| [`ISSUES.tsv`](ISSUES.tsv) | Every filed issue: repository, number, state, date |
-| [`notes/`](notes/) | Working notes, one file per topic, each dated |
-| [`vscode-mcp/`](https://github.com/SudoKillMe/vscode-mcp) | The MCP bridge used to drive the editor |
-| [`scripts/`](scripts/) | Audit helpers (`check-results.py`, `reinstall-all.ps1`, smoke/install logs) |
-| [`work/`](work/) | Fixtures used by the rounds |
+| [`PROCEDURE.md`](PROCEDURE.md) | The audit method in full detail |
+| [`RESULTS.tsv`](RESULTS.tsv) | One row per extension: date, what happened, where the notes are |
+| [`ISSUES.tsv`](ISSUES.tsv) | Every bug filed: repo, issue number, state, date |
+| [`notes/`](notes/) | Working notes, one file per topic |
+| [`scripts/`](scripts/) | Helper scripts and logs |
+| [`work/`](work/) | Test fixtures |
+
+vscode-mcp, the editor bridge, lives in its own repo:
+<https://github.com/SudoKillMe/vscode-mcp>.
 
 ## Status
 
-Testing runs in rounds when asked; `RESULTS.tsv` is the live record — check it
-before naming what is left. Rounds run on portable VS Code builds 1.144–1.146
-with vscode-mcp 0.8.4–0.9.1.
+Testing happens in rounds, when asked. `RESULTS.tsv` is the current record.
+Recent rounds ran on VS Code 1.144–1.146 with vscode-mcp 0.8.4–0.9.1.
 
 ## License
 
