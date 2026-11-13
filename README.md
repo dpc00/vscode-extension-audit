@@ -50,12 +50,12 @@ Failures cluster into a few shapes:
 | Placeholder crash | snippet body with `${1:…}` fed to prettier crashes generation (es7-react-js-snippets) |
 | Case-sensitive path keys | Windows path casing spawns duplicate servers (open-in-browser) |
 
-## What this audit could not test
+## Scope and limits
 
-- **Anything needing paid accounts or remote services.** These are local-first
-  extensions.
-- **Windows only.** Every result is from portable VS Code on Windows; nothing is
-  claimed for Linux or macOS.
+- **Runs on Windows only.** Every result is from portable VS Code on Windows;
+  nothing is claimed for Linux or macOS.
+- **Anything needing paid accounts or remote services** is out of scope —
+  these are local-first extensions.
 - **What the UI hid.** Where a surface is unreachable from the API (e.g. a
   dirty-file save dialog, Alt+B keys Chromium drops in the background), the row
   says so instead of guessing.
