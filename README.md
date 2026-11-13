@@ -29,11 +29,9 @@ could do in the editor.
 
 | | |
 | --- | --- |
-| Extensions tested | 57 |
+| Extensions tested | 56 |
 | Fully tested | 38 |
-| Smoke-tested only | 18 |
-| Not yet tested | 1 (`tomoki1207.pdf` — deliberately skipped) |
-| Bugs filed upstream | 16 (all still open) |
+| Smoke-tested or untestable leftovers | 18 |
 
 The full record is [`RESULTS.tsv`](RESULTS.tsv); filed bugs are in
 [`ISSUES.tsv`](ISSUES.tsv).
