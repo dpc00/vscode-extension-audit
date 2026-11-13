@@ -30,8 +30,8 @@ could do in the editor.
 | | |
 | --- | --- |
 | Extensions tested | 56 |
-| Fully tested | 38 |
-| Smoke-tested or untestable leftovers | 18 |
+| Fully tested | 39 |
+| Smoke-tested or untestable leftovers | 17 |
 
 The full record is [`RESULTS.tsv`](RESULTS.tsv); filed bugs are in
 [`ISSUES.tsv`](ISSUES.tsv).
