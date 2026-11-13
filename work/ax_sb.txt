@@ -1,0 +1,236 @@
+# app: Visual Studio Code — [Extension Development Host] err.json - work - Visual Studio Code - 1 problem in this file
+# returned: full
+Window: "[Extension Development Host] err.json - work - Visual Studio Code - 1 problem in this file", App: Visual Studio Code.
+	0 AXWindow [Extension Development Host] err.json - work - Visual Studio Code - 1 problem in this file screen@232,90 1456x908
+		1 AXGroup (disabled) screen@240,90 1440x900
+		2 AXGroup [Extension Development Host] err.json - work - Visual Studio Code - 1 problem in this file screen@240,90 1440x900
+			3 AXButton Minimize screen@1543,91 45x33
+			4 AXButton Maximize screen@1588,91 46x33
+			5 AXButton Close screen@1634,91 46x33
+			6 AXScrollArea (read-only) [Extension Development Host] err.json - work - Visual Studio Code - 1 problem in this file ID: RootWebArea screen@240,90 1440x900
+				7 AXGroup screen@240,90 1440x900
+					8 AXGroup screen@240,125 1440x4
+					9 AXGroup screen@240,125 1440x4
+					10 AXGroup screen@240,962 1440x4
+					11 AXUnknown screen@275,90 376x35
+						12 AXMenuItem (collapsed) File screen@275,90 36x35
+						13 AXMenuItem (collapsed) Edit screen@310,90 39x35
+						14 AXMenuItem (collapsed) Selection screen@348,90 69x35
+						15 AXMenuItem (collapsed) View screen@416,90 44x35
+						16 AXMenuItem (collapsed) Go screen@459,90 34x35
+						17 AXMenuItem (collapsed) Run screen@492,90 39x35
+						18 AXMenuItem (collapsed) Terminal screen@530,90 66x35
+						19 AXMenuItem (collapsed) Help screen@595,90 44x35
+					20 AXToolbar screen@660,95 600x25
+						21 AXButton Go Back (Alt+LeftArrow) screen@660,96 23x23
+						22 AXButton (disabled) Go Forward (Alt+RightArrow) screen@686,96 23x23
+						23 AXToolbar Agent Status screen@712,95 548x25
+							24 AXButton Open Quick Access screen@713,96 495x23
+							25 AXGroup screen@1207,96 52x23
+								26 AXButton Toggle Chat (truncated: max_depth, omitted 0 children) screen@1207,96 34x23
+								27 AXGroup (truncated: max_depth, omitted 0 children) screen@1242,96 16x23
+					28 AXToolbar screen@1269,96 84x23
+						29 AXButton Open in Agents Window (Ctrl+Shift+Alt+A) screen@1269,96 25x23
+						30 AXButton Sign In screen@1297,96 56x23
+					31 AXToolbar Title actions screen@1438,90 100x35
+						32 AXButton Customize Layout... screen@1438,96 22x23
+						33 AXButton Toggle Primary Side Bar (Ctrl+B) Value: on screen@1464,96 22x23
+							34 AXStaticText (read-only)  Value:  screen@1467,99 16x17
+						35 AXButton Toggle Panel (Ctrl+J) Value: on screen@1490,96 22x23
+							36 AXStaticText (read-only)  Value:  screen@1493,99 16x17
+						37 AXButton Toggle Secondary Side Bar (Ctrl+Alt+B) Value: on screen@1516,96 22x23
+							38 AXStaticText (read-only)  Value:  screen@1519,99 16x17
+					39 AXGroup screen@288,125 4x837
+					40 AXGroup screen@588,125 4x837
+					41 AXGroup screen@1380,125 4x837
+					42 AXTabGroup Active View Switcher screen@248,129 36x212
+						43 AXTab (selected, expanded) Explorer (Ctrl+Shift+E) screen@248,129 36x36
+							44 AXGroup Explorer (Ctrl+Shift+E) screen@248,129 36x36
+						45 AXTab (selectable, collapsed) Search (Ctrl+Shift+F) screen@248,173 36x36
+							46 AXGroup Search (Ctrl+Shift+F) screen@248,173 36x36
+						47 AXTab (selectable, collapsed) Source Control (Ctrl+Shift+G) screen@248,217 36x36
+							48 AXGroup Source Control (Ctrl+Shift+G) screen@248,217 36x36
+						49 AXTab (selectable, collapsed) Run and Debug (Ctrl+Shift+D) screen@248,261 36x36
+							50 AXGroup Run and Debug (Ctrl+Shift+D) screen@248,261 36x36
+						51 AXTab (selectable, collapsed) Extensions (Ctrl+Shift+X) screen@248,305 36x36
+							52 AXGroup Extensions (Ctrl+Shift+X) screen@248,305 36x36
+					53 AXToolbar Manage screen@248,874 36x80
+						54 AXButton (collapsed) Accounts screen@248,874 36x36
+							55 AXGroup Accounts screen@248,874 36x36
+								56 AXStaticText (read-only)  Value:  (truncated: max_depth, omitted 0 children) screen@254,880 24x24
+						57 AXButton (collapsed) Manage screen@248,918 36x36
+							58 AXGroup Manage screen@248,918 36x36
+								59 AXStaticText (read-only)  Value:  (truncated: max_depth, omitted 0 children) screen@254,924 24x24
+					60 AXStaticText Explorer screen@301,126 186x32
+					61 AXToolbar Explorer actions screen@490,126 93x32
+						62 AXGroup screen@561,131 22x22
+							63 AXGroup screen@561,131 22x22
+								64 AXButton (collapsed) Views and More Actions... (truncated: max_depth, omitted 0 children) screen@561,131 22x22
+					65 AXToolbar
+					66 AXGroup screen@289,922 297x4
+					67 AXGroup screen@289,894 297x4
+					68 AXButton (expanded) Explorer Section: work screen@293,158 289x28
+						69 AXStaticText Explorer Section: work screen@317,158 27x28
+					70 AXOutline Files Explorer screen@289,186 297x710
+						71 AXRow (selectable, collapsed) .vscode ID: list_id_4_0 screen@293,186 289x22
+							72 AXGroup C:\Users\donal\tools\vscode_portable\work\.vscode screen@323,186 259x22
+						73 AXRow (selectable, expanded) el_tail ID: list_id_4_1 screen@293,208 289x22
+							74 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail • Contains emphasized items screen@323,208 259x22
+						75 AXRow (selectable) dep.ts ID: list_id_4_2 screen@293,230 289x22
+							76 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\dep.ts screen@309,230 273x22
+						77 AXRow (selected) err.json ID: list_id_4_3 screen@293,252 289x22
+							78 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\err.json • 1 problem in this file screen@309,252 273x22
+						79 AXRow (selectable) h.html ID: list_id_4_4 screen@293,274 289x22
+							80 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\h.html screen@309,274 273x22
+						81 AXRow (selectable) hint.js ID: list_id_4_5 screen@293,296 289x22
+							82 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\hint.js screen@309,296 273x22
+						83 AXRow (selectable) info_manual.txt ID: list_id_4_6 screen@293,318 289x22
+							84 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\info_manual.txt screen@309,318 273x22
+						85 AXRow (selectable) info.css ID: list_id_4_7 screen@293,340 289x22
+							86 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\info.css screen@309,340 273x22
+						87 AXRow (selectable) info.js ID: list_id_4_8 screen@293,362 289x22
+							88 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\info.js screen@309,362 273x22
+						89 AXRow (selectable) info.ts ID: list_id_4_9 screen@293,384 289x22
+							90 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\info.ts screen@309,384 273x22
+						91 AXRow (selectable) info2.css ID: list_id_4_10 screen@293,406 289x22
+							92 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\info2.css screen@309,406 273x22
+						93 AXRow (selectable) jsonc.json ID: list_id_4_11 screen@293,428 289x22
+							94 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\jsonc.json screen@309,428 273x22
+						95 AXRow (selectable) many.css ID: list_id_4_12 screen@293,450 289x22
+							96 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\many.css • 12 problems in this file screen@309,450 273x22
+						97 AXRow (selectable) multi2.css ID: list_id_4_13 screen@293,472 289x22
+							98 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\multi2.css • 5 problems in this file screen@309,472 273x22
+						99 AXRow (selectable) multi3.css ID: list_id_4_14 screen@293,494 289x22
+							100 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\multi3.css • 5 problems in this file screen@309,494 273x22
+						101 AXRow (selectable) multi4.css ID: list_id_4_15 screen@293,516 289x22
+							102 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\multi4.css • 5 problems in this file screen@309,516 273x22
+						103 AXRow (selectable) multi5.css ID: list_id_4_16 screen@293,538 289x22
+							104 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\multi5.css • 5 problems in this file screen@309,538 273x22
+						105 AXRow (selectable) multi6.css ID: list_id_4_17 screen@293,560 289x22
+							106 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\multi6.css • 5 problems in this file screen@309,560 273x22
+						107 AXRow (selectable) warn.css ID: list_id_4_18 screen@293,582 289x22
+							108 AXGroup C:\Users\donal\tools\vscode_portable\work\el_tail\warn.css screen@309,582 273x22
+						109 AXRow (selectable, expanded) hc_probe ID: list_id_4_19 screen@293,604 289x22
+							110 AXGroup C:\Users\donal\tools\vscode_portable\work\hc_probe screen@323,604 259x22
+						111 AXRow (selectable) cmt.html ID: list_id_4_20 screen@293,626 289x22
+							112 AXGroup C:\Users\donal\tools\vscode_portable\work\hc_probe\cmt.html screen@309,626 273x22
+						113 AXRow (selectable) def.html ID: list_id_4_21 screen@293,648 289x22
+							114 AXGroup C:\Users\donal\tools\vscode_portable\work\hc_probe\def.html screen@309,648 273x22
+						115 AXRow (selectable) index.css ID: list_id_4_22 screen@293,670 289x22
+							116 AXGroup C:\Users\donal\tools\vscode_portable\work\hc_probe\index.css screen@309,670 273x22
+						117 AXRow (selectable) index.html ID: list_id_4_23 screen@293,692 289x22
+							118 AXGroup C:\Users\donal\tools\vscode_portable\work\hc_probe\index.html screen@309,692 273x22
+						119 AXRow (selectable) style.css ID: list_id_4_24 screen@293,714 289x22
+							120 AXGroup C:\Users\donal\tools\vscode_portable\work\hc_probe\style.css screen@309,714 273x22
+						121 AXRow (selectable) mermaid_probe.md ID: list_id_4_25 screen@293,736 289x22
+							122 AXGroup C:\Users\donal\tools\vscode_portable\work\mermaid_probe.md screen@301,736 281x22
+						123 AXRow (selectable) quickstart_test.html ID: list_id_4_26 screen@293,758 289x22
+							124 AXGroup C:\Users\donal\tools\vscode_portable\work\quickstart_test.html screen@301,758 281x22
+						125 AXRow (selectable) test.pdf ID: list_id_4_27 screen@293,780 289x22
+							126 AXGroup C:\Users\donal\tools\vscode_portable\work\test.pdf screen@301,780 281x22
+						127 AXRow (selectable) textureAtlas.png ID: list_id_4_28 screen@293,802 289x22
+							128 AXGroup C:\Users\donal\tools\vscode_portable\work\textureAtlas.png screen@301,802 281x22
+					129 AXButton (collapsed) Outline Section screen@293,896 289x28
+						130 AXStaticText Outline screen@317,896 41x28
+					131 AXButton (collapsed) Timeline Section screen@293,924 289x28
+						132 AXStaticText Timeline screen@317,924 47x28
+					133 AXGroup screen@588,662 792x4
+					134 AXGroup ID: workbench.parts.editor screen@592,125 788x537
+						135 AXGroup screen@593,126 786x54
+							136 AXTabGroup screen@593,126 730x32
+								137 AXTab (selectable) hit.md (truncated: max_depth, omitted 0 children) screen@504,126 97x31
+								138 AXTab (selected) err.json (truncated: max_depth, omitted 0 children) screen@600,126 111x31
+								139 AXTab (selectable) warn.css (truncated: max_depth, omitted 0 children) screen@710,126 107x31
+								140 AXTab (selectable) hint.js (truncated: max_depth, omitted 0 children) screen@816,126 93x31
+								141 AXTab (selectable) many.css (truncated: max_depth, omitted 0 children) screen@908,126 130x31
+								142 AXTab (selectable) multi2.css (truncated: max_depth, omitted 0 children) screen@1037,126 127x31
+								143 AXTab (selectable) multi3.css (truncated: max_depth, omitted 0 children) screen@1163,126 126x31
+								144 AXTab (selectable) multi4.css (truncated: max_depth, omitted 0 children) screen@1288,126 127x31
+							145 AXToolbar Editor actions screen@1327,126 48x31
+								146 AXButton Split Editor Right (Ctrl+\) [Alt] Split Editor Down (truncated: max_depth, omitted 0 children) screen@1327,130 22x23
+								147 AXGroup (truncated: max_depth, omitted 0 children) screen@1353,130 22x23
+							148 AXTable screen@593,158 786x22
+								149 AXRow el_tail (truncated: max_depth, omitted 0 children) screen@593,158 65x22
+								150 AXRow err.json (truncated: max_depth, omitted 0 children) screen@657,158 81x22
+								151 AXRow … (truncated: max_depth, omitted 0 children) screen@737,158 19x22
+						152 AXGroup err.json screen@593,180 786x481
+							153 AXStaticText screen@593,180 786x481
+								154 AXTextField (settable, string) err.json Value: {"a": , "b": 2} (truncated: max_depth, omitted 0 children) screen@661,180 116x19
+								155 AXTable (settable, string) Show Code Actions (Ctrl+.) (truncated: max_depth, omitted 0 children) screen@661,199 16x16
+					156 AXTabGroup Active View Switcher screen@595,667 383x32
+						157 AXTab (selectable, collapsed) Problems (Ctrl+Shift+M) - Total 39 Problems screen@595,667 97x32
+							158 AXGroup Problems (Ctrl+Shift+M) - Total 39 Problems screen@605,671 54x24
+							159 AXGroup Problems (Ctrl+Shift+M) - Total 39 Problems screen@660,675 22x16
+						160 AXTab (selectable, collapsed) Output (Ctrl+Shift+U) screen@691,667 62x32
+							161 AXGroup Output (Ctrl+Shift+U) screen@701,671 42x24
+						162 AXTab (selectable, collapsed) Debug Console (Ctrl+Shift+Y) screen@752,667 109x32
+							163 AXGroup Debug Console (Ctrl+Shift+Y) screen@762,671 89x24
+						164 AXTab (selected, expanded) Terminal (Ctrl+`) screen@860,667 70x32
+							165 AXGroup Terminal (Ctrl+`) screen@870,671 50x24
+						166 AXTab (selectable, collapsed) Ports screen@929,667 49x32
+							167 AXGroup Ports screen@939,671 29x24
+					168 AXToolbar Terminal actions screen@981,667 346x32
+						169 AXButton Focus Terminal (Ctrl+DownArrow) [Alt] Split Terminal (Ctrl+Shift+5) screen@1118,670 79x26
+						170 AXButton New Terminal (Ctrl+Shift+`) [Alt] Split Terminal (Ctrl+Shift+5) screen@1201,672 22x22
+							171 AXButton New Terminal (Ctrl+Shift+`) [Alt] Split Terminal (Ctrl+Shift+5) screen@1201,672 22x22
+						172 AXGroup screen@1223,672 13x22
+							173 AXGroup screen@1223,672 13x22
+								174 AXButton (collapsed) Launch Profile... (truncated: max_depth, omitted 0 children) screen@1220,672 16x22
+						175 AXButton Split Terminal (Ctrl+Shift+5) screen@1240,672 22x22
+						176 AXButton Kill Terminal screen@1266,672 22x22
+						177 AXGroup screen@1292,672 22x22
+							178 AXGroup screen@1292,672 22x22
+								179 AXButton (collapsed) Views and More Actions... (truncated: max_depth, omitted 0 children) screen@1292,672 22x22
+						180 AXGroup (disabled) screen@1322,675 1x16
+					181 AXToolbar screen@1327,667 48x32
+						182 AXButton Maximize Panel Value: off screen@1327,672 22x22
+							183 AXStaticText (read-only)  Value:  screen@1330,675 16x16
+						184 AXButton Hide Panel (Ctrl+J) screen@1353,672 22x22
+					185 AXGroup screen@593,699 786x258
+						186 AXGroup screen@593,699 786x254
+							187 AXTable screen@593,699 756x238
+								188 AXRow PS C:\Users\donal\tools\vscode_portable\work> (truncated: max_depth, omitted 0 children) screen@593,699 322x17
+								189 AXRow (truncated: max_depth, omitted 0 children) screen@593,716 7x17
+								190 AXRow (truncated: max_depth, omitted 0 children) screen@593,733 7x17
+								191 AXRow (truncated: max_depth, omitted 0 children) screen@593,750 7x17
+								192 AXRow (truncated: max_depth, omitted 0 children) screen@593,767 7x17
+								193 AXRow (truncated: max_depth, omitted 0 children) screen@593,784 7x17
+								194 AXRow (truncated: max_depth, omitted 0 children) screen@593,801 7x17
+								195 AXRow (truncated: max_depth, omitted 0 children) screen@593,818 7x17
+								196 AXRow (truncated: max_depth, omitted 0 children) screen@593,835 7x17
+								197 AXRow (truncated: max_depth, omitted 0 children) screen@593,852 7x17
+								198 AXRow (truncated: max_depth, omitted 0 children) screen@593,869 7x17
+								199 AXRow (truncated: max_depth, omitted 0 children) screen@593,886 7x17
+								200 AXRow (truncated: max_depth, omitted 0 children) screen@593,903 7x17
+								201 AXRow (truncated: max_depth, omitted 0 children) screen@593,920 7x17
+							202 AXImage screen@1369,699 10x238
+							203 AXGroup screen@613,707 756x238
+								204 AXTextField (settable, string) Terminal 1, powershell Use Alt+F1 for terminal accessibility help Value: T (truncated: max_depth, omitted 0 children) screen@935,715 7x17
+								205 AXStaticText (read-only)  Value:  (truncated: max_depth, omitted 0 children) screen@596,707 16x16
+								206 AXImage (truncated: max_depth, omitted 0 children) screen@613,707 756x238
+								207 AXImage (truncated: max_depth, omitted 0 children) screen@613,707 756x238
+					208 AXTabGroup Active View Switcher screen@1387,126 47x32
+						209 AXTab (selected, expanded) Chat (Ctrl+Alt+I) screen@1387,126 47x32
+							210 AXGroup Chat (Ctrl+Alt+I) screen@1397,130 27x24
+					211 AXToolbar Chat actions screen@1507,126 116x32
+						212 AXGroup screen@1522,131 23x22
+							213 AXButton New Chat (Ctrl+N) screen@1522,131 23x22
+						214 AXGroup screen@1544,131 14x22
+							215 AXGroup screen@1544,131 14x22
+								216 AXButton (collapsed) New Chat (truncated: max_depth, omitted 0 children) screen@1541,131 17x22
+						217 AXButton Open Customizations screen@1562,131 22x22
+						218 AXGroup screen@1588,131 22x22
+							219 AXGroup screen@1588,131 22x22
+								220 AXButton (collapsed) Views and More Actions... (truncated: max_depth, omitted 0 children) screen@1588,131 22x22
+						221 AXGroup (disabled) screen@1618,134 1x16
+					222 AXToolbar screen@1623,126 48x32
+						223 AXButton Maximize Secondary Side Bar Value: off screen@1623,131 22x22
+							224 AXStaticText (read-only)  Value:  screen@1626,134 16x16
+						225 AXButton Hide Secondary Side Bar (Ctrl+Alt+B) screen@1649,131 22x22
+					226 AXGroup screen@1385,158 289x794
+						227 AXGroup screen@1385,158 289x547
+							228 AXStaticText (read-only)  Value:  screen@1509,357 41x41
+							229 AXStaticText (read-only) Build with Agent Value: Build with Agent screen@1480,426 99x18
+							230 AXGroup screen@1446,451 167x19
+								231 AXStaticText (read-only) AI responses may be inaccurate Value: AI responses may be inaccurate (truncated: max_dept
+# … perception truncated. Narrow it: pass a smaller max_depth/max_children, target a more specific JSONL row from list_apps, or switch to capture_mode=image for a visual instead of the tree.

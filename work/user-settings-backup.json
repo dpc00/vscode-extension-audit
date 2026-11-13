@@ -1,0 +1,9 @@
+{
+    "update.mode":  "none",
+    "extensions.autoUpdate":  "off",
+    "extensions.autoCheckUpdates":  false,
+    "telemetry.telemetryLevel":  "off",
+    "window.restoreWindows":  "none",
+    "workbench.startupEditor": "none",
+    "material-icon-theme.hidesExplorerArrows": true
+}
