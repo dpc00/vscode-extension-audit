@@ -3,7 +3,8 @@
 # Usage: tools\issues_tsv.ps1   (needs gh, logged in as the account that filed the issues)
 $issues = @(
     'NilsJPWerner/autoDocstring#315', 'cschlosser/doxdocgen#349', 'cschlosser/doxdocgen#350', 'cschlosser/doxdocgen#351',
-    'kbrose/vsc-python-indent#135', 'oderwat/vscode-indent-rainbow#208', 'HansUXdev/B5-Snippets#18',
+    'kbrose/vsc-python-indent#135', 'oderwat/vscode-indent-rainbow#208', 'oderwat/vscode-indent-rainbow#210', 'oderwat/vscode-indent-rainbow#211', 'HansUXdev/B5-Snippets#18',
+    'ritwickdey/vscode-live-server#3334', 'SudoKillMe/vscode-extensions-open-in-browser#116',
     'fivethree-team/vscode-ionic-snippets#32', 'streetsidesoftware/vscode-spell-checker#5602', 'streetsidesoftware/vscode-spell-checker#5603', 'yzhang-gh/vscode-markdown#1592', 'yzhang-gh/vscode-markdown#1593', 'prettier/prettier-vscode#4015', 'tamasfe/taplo#894'
 )
 $out = New-Object System.Collections.Generic.List[string]

@@ -15,3 +15,5 @@ prettier/prettier-vscode	4015	prettier.disableLanguages has no effect: the setti
 tamasfe/taplo	894	reorderInlineTables / reorder_inline_tables has no effect	open	2026-10-29		https://github.com/tamasfe/taplo/issues/894		2026-10-28	issue
 ritwickdey/vscode-live-server	3334	cors setting is documented as adding 'Access-Control-Allow-Origin: *' but reflects any Origin with credentials instead	open	2026-11-11		https://github.com/ritwickdey/vscode-live-server/issues/3334		2026-11-11	issue
 SudoKillMe/vscode-extensions-open-in-browser	116	Serve Mode: same directory served twice when serve.root casing differs (Windows)	open	2026-11-13		https://github.com/SudoKillMe/vscode-extensions-open-in-browser/issues/116		2026-11-13	issue
+oderwat/vscode-indent-rainbow	210	Non-global ignoreLinePatterns freezes the extension host ~25s, then kills all indent coloring (RangeError)	open	2026-11-13		https://github.com/oderwat/vscode-indent-rainbow/issues/210		2026-11-13	issue
+oderwat/vscode-indent-rainbow	211	indentRainbow.indentSetter is declared in package.json but never read — dead setting	open	2026-11-13		https://github.com/oderwat/vscode-indent-rainbow/issues/211		2026-11-13	issue
