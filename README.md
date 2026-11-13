@@ -27,13 +27,13 @@ This is the counterpart of
 
 ## Scale
 
-| Metric | Count |
+| Metric | Value |
 | --- | --- |
 | Extensions tested | 57 |
 | Full test rounds | 38 |
 | Remaining smoke-test rows | 1 (`tomoki1207.pdf`, deliberately untested) |
 | Issues filed (all open) | 16 |
-| Tests run | none, ever |
+| Extension test suites run | 0 — every check is a live drive in real VS Code, never `npm test` |
 
 ## What was found
 
