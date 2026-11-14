@@ -29,9 +29,9 @@ could do in the editor.
 
 | | |
 | --- | --- |
-| Extensions tested | 56 |
-| Fully tested | 42 |
-| Smoke-tested or untestable leftovers | 14 |
+| Extensions tested | 72 |
+| Fully tested | 63 |
+| Smoke-tested or untestable leftovers | 9 |
 
 The full record is [`RESULTS.tsv`](RESULTS.tsv); filed bugs are in
 [`ISSUES.tsv`](ISSUES.tsv).
