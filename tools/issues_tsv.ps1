@@ -5,7 +5,8 @@ $issues = @(
     'NilsJPWerner/autoDocstring#315', 'NilsJPWerner/autoDocstring#316', 'NilsJPWerner/autoDocstring#317', 'cschlosser/doxdocgen#349', 'cschlosser/doxdocgen#350', 'cschlosser/doxdocgen#351', 'cschlosser/doxdocgen#352',
     'kbrose/vsc-python-indent#135', 'oderwat/vscode-indent-rainbow#208', 'oderwat/vscode-indent-rainbow#210', 'oderwat/vscode-indent-rainbow#211', 'HansUXdev/B5-Snippets#18',
     'ritwickdey/vscode-live-server#3334', 'SudoKillMe/vscode-extensions-open-in-browser#116',
-    'fivethree-team/vscode-ionic-snippets#32', 'streetsidesoftware/vscode-spell-checker#5602', 'streetsidesoftware/vscode-spell-checker#5603', 'yzhang-gh/vscode-markdown#1592', 'yzhang-gh/vscode-markdown#1593', 'prettier/prettier-vscode#4015', 'tamasfe/taplo#894'
+    'fivethree-team/vscode-ionic-snippets#32', 'streetsidesoftware/vscode-spell-checker#5602', 'streetsidesoftware/vscode-spell-checker#5603', 'yzhang-gh/vscode-markdown#1592', 'yzhang-gh/vscode-markdown#1593', 'prettier/prettier-vscode#4015', 'tamasfe/taplo#894',
+    'Tyriar/vscode-lorem-ipsum#9', 'Tyriar/vscode-sort-lines#154', 'albertromkes/tabout#62', 'one-harsh/vscode-cpp-snippets#21', 'softchris/node-snippets#9'
 )
 $out = New-Object System.Collections.Generic.List[string]
 $out.Add("repository`tnumber`ttitle`tstate`tcreated`tclosed`turl`tlogged_title`tchecked`tkind")
