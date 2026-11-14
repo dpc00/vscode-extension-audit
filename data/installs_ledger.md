@@ -234,3 +234,71 @@ One line per install and per removal, written BEFORE the install. Everything liv
 2026-11-13: install cschlosser.doxdocgen 1.4.0 in the portable VS Code 1.146.0 for a full feature test (the 2026-10-28 row was a smoke test that filed #349-351; #352 was filed earlier this session before the test round). Doxygen comment generation via the /** onEnterRules trigger - real Enter keypresses required because the vscode-mcp type command bypasses onEnterRules. Removal follows.
 
 2026-11-13 removal (first pass): cschlosser.doxdocgen uninstalled and window reloaded, list_extensions clean - but the template-head requires-clause position for issue #350 had not been verified live yet, so it was reinstalled for one more probe, then uninstalled again (second removal identical: reload, list_extensions clean, extension folder and work\dd_probe recycled by hand). RESULTS.tsv row 49 rewritten as a full test; ISSUES.tsv gained #352; issues_tsv.ps1 refreshed via gh (also picked up vscode-ionic-snippets#32 now closed upstream and fixed three mojibake em-dashes the script wrote).
+
+2026-11-14: install Tyriar.lorem-ipsum in the portable VS Code 1.146.0 for a full feature test (three lorem commands, quick pick for paragraph count, multi-selection). Removal follows.
+
+2026-11-14 removal: Tyriar.lorem-ipsum 1.3.1 uninstalled from the portable VS Code 1.146.0, window reloaded, list_extensions clean (only dpc00.vscode-mcp); leftover extension folder and .obsolete entry cleaned by hand. Probe files work\lorem_probe*.txt and work\dl recycled. RESULTS.tsv row 58 appended; issue Tyriar/vscode-lorem-ipsum#9 filed (commands crash with no editor open).
+
+2026-11-14: install Tyriar.sort-lines in the portable VS Code 1.146.0 for a full feature test (14 sort commands, 3 settings: filterBlankLines, ignoreUnselectedLastLine, sortEntireFile). Removal follows.
+
+2026-11-14 removal: Tyriar.sort-lines 1.12.0 uninstalled from the portable VS Code 1.146.0, window reloaded, list_extensions clean (only dpc00.vscode-mcp); extension folder and work\.vscode\settings.json (sortLines.* probe settings) recycled, sl_* probe files deleted. RESULTS.tsv row appended; issue Tyriar/vscode-sort-lines#154 filed (EOF phantom-line corruption in all 14 sort commands + sortEntireFile).
+
+2026-11-14: install albert.TabOut in the portable VS Code 1.146.0 for a full feature test (tabout/tabout-reverse commands, 3 settings). Removal follows. NOTE: real Tab keypresses are blocked on this rig (Chromium background-input + Windows foreground-lock refuses activation); the test drives the commands directly and the keybinding path is recorded as harness-limited.
+
+2026-11-14 removal: albert.TabOut 0.2.4 uninstalled from the portable VS Code 1.146.0, window reloaded, list_extensions clean; extension folder and .obsolete entry recycled by hand, tab*/sl_* probe files and work\.vscode\settings.json recycled, user settings.json tabout.enableReverseShiftTab probe key removed. RESULTS.tsv row appended; issue albertromkes/tabout#62 filed (two determineNextSpecialCharPosition defects). Debug line patched into out/src/extension.js during the test was reverted before uninstall.
+
+2026-11-14: install hars.CppSnippets 0.0.15 in the portable VS Code 1.146.0 for a full feature test (C/C++ snippet pack; note marketplace id is hars.CppSnippets, not har.s.CppSnippets - the audit list's dot placement was wrong). Removal follows.
+
+2026-11-14 removal: hars.CppSnippets 0.0.15 uninstalled from the portable VS Code 1.146.0, window reloaded, list_extensions clean (still_listed:false); extension folder and .obsolete entry recycled by hand, cpp_probe*.cpp and c_probe.c probe files deleted. RESULTS.tsv row appended; issue one-harsh/vscode-cpp-snippets#21 filed (#if snippet emits #ifdef + meaningless #endif comment). NOTE: editor.action.insertSnippet hangs on this rig (pending forever, no dialog) - snippet expansion must be driven via triggerSuggest + acceptSelectedSuggestion.
+
+2026-11-14: install cstrap.python-snippets 0.1.2 in the portable VS Code 1.146.0 for a full feature test (python snippet pack). Removal follows.
+
+2026-11-14 removal: cstrap.python-snippets 0.1.2 uninstalled from the portable VS Code 1.146.0, window reloaded, list_extensions clean (still_listed:false); extension folder and .obsolete entry recycled by hand, py_probe.py deleted. RESULTS.tsv row appended; NO issue filed - upstream repo archived (convention). Defects recorded in the row: tkinter colomn/menu-lowercase/addseperator/sticky-side-ends-at-tk., property prefix claimed by two snippets.
+
+2026-11-14: install ms-python.isort in the portable VS Code 1.146.0 for a full feature test (isort import sorting; upstream repo microsoft/vscode-isort is active). Removal follows.
+
+2026-11-14 removal: ms-python.isort 2026.8.0 and its auto-installed dep ms-python.vscode-python-envs 1.42.0 uninstalled, window reloaded, list_extensions clean (only dpc00.vscode-mcp). The CLI also fetched ms-python.python 2026.10.0, ms-python.debugpy 2026.6.0, ms-python.vscode-pylance 2026.4.1 as deps but extraction never finalized (stuck in dot-prefixed temp dirs, never registered in extensions.json); temp dirs and extension folders recycled by hand. isort_probe.py closed+deleted. RESULT: environment-blocked, not a defect - isort's activate() waits on the ms-python.python extension API which never installed, so zero isort.* commands registered and organizeImports was a no-op; bundled isort 9.0.1 verified working standalone via PYTHONPATH. No RESULTS.tsv row (untestable in this rig). Harness note: install_extension client call timed out at 30s but install continued server-side.
+
+2026-11-14: install frhtylcn.pythonsnippets 1.0.2 in the portable VS Code 1.146.0 for a full feature test (python snippet pack). Removal follows.
+
+2026-11-14 removal: frhtylcn.pythonsnippets 1.0.2 uninstalled from the portable VS Code 1.146.0, window reloaded, list_extensions clean (still_listed:false); extension folder and .obsolete entry recycled by hand, py2_probe.py deleted. RESULTS.tsv row appended; no issue filed (dormant repo, cosmetic-only findings).
+
+2026-11-14: install chris-noring.node-snippets 1.4.0 in the portable VS Code 1.146.0 for a full feature test (node snippet pack). Removal follows.
+
+2026-11-14 removal: chris-noring.node-snippets 1.4.0 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, js_probe.js deleted. Issue filed: softchris/node-snippets#9 (node-express-query-params snippet emits invalid JS). RESULTS.tsv row appended.
+
+2026-11-14: install jorgeserrano.vscode-csharp-snippets 1.1.0 in the portable VS Code 1.146.0 for a full feature test (C# snippet pack). Removal follows.
+
+2026-11-14 removal: jorgeserrano.vscode-csharp-snippets 1.1.0 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, cs_probe.cs deleted. RESULTS.tsv row appended (no bug found); dormant repo, no issue filed.
+
+2026-11-14: install wcwhitehead.bootstrap-3-snippets 0.1.0 in the portable VS Code 1.146.0 for a full feature test (Bootstrap 3 snippet pack). Removal follows.
+
+2026-11-14 removal: wcwhitehead.bootstrap-3-snippets 0.1.0 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, html_probe.html and js_probe.js deleted. RESULTS.tsv row appended (no bug found); dormant repo, no issue filed.
+
+2026-11-14: install Wscats.html-snippets 1.0.6 in the portable VS Code 1.146.0 for a full feature test (HTML snippet pack). Removal follows.
+
+2026-11-14 removal: Wscats.html-snippets 1.0.6 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, html_probe.html and js_probe.js deleted. RESULTS.tsv row appended (no bug found); repo actively maintained, no issue filed.
+
+2026-11-14: install skyran.js-jsx-snippets 12.0.2 in the portable VS Code 1.146.0 for a full feature test (JS/JSX snippet pack). Removal follows.
+
+2026-11-14 removal: skyran.js-jsx-snippets 12.0.2 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, jsx_probe.js deleted. RESULTS.tsv row appended (no bug found); repo actively maintained, no issue filed.
+
+2026-11-14: install kleber-swf.unity-code-snippets 2.4.0 in the portable VS Code 1.146.0 for a full feature test (Unity C# snippet pack). Removal follows.
+
+2026-11-14 removal: kleber-swf.unity-code-snippets 2.4.0 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, unity_probe.cs deleted. RESULTS.tsv row appended (no bug found); repo actively maintained, no issue filed.
+
+2026-11-14: install EQuimper.react-native-react-redux 2.0.6 in the portable VS Code 1.146.0 for a full feature test (React Native Redux snippet pack). Removal follows.
+
+2026-11-14 removal: EQuimper.react-native-react-redux 2.0.6 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, jsx_probe.js deleted. RESULTS.tsv row appended (no bug found); dormant repo, no issue filed.
+
+2026-11-14: install akamud.vscode-javascript-snippet-pack 0.1.6 in the portable VS Code 1.146.0 for a full feature test (JavaScript snippet pack). Removal follows.
+
+2026-11-14 removal: akamud.vscode-javascript-snippet-pack 0.1.6 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, js_probe.js deleted. RESULTS.tsv row appended (no bug found); dormant repo, no issue filed.
+
+2026-11-14: install infeng.vscode-react-typescript 1.3.1 in the portable VS Code 1.146.0 for a full feature test (React TypeScript snippet pack). Removal follows.
+
+2026-11-14 removal: infeng.vscode-react-typescript 1.3.1 uninstalled from the portable VS Code 1.146.0, window reloaded, extension folder and .obsolete entry recycled by hand, tsx_probe.tsx deleted. RESULTS.tsv row appended (no bug found); dormant repo, no issue filed.
+
+2026-11-14: install Nash.awesome-flutter-snippets 4.0.1 in the portable VS Code 1.146.0 for a full feature test (Flutter/Dart snippet pack). Removal follows.
+
+2026-11-14 removal: Nash.awesome-flutter-snippets 4.0.1 uninstalled from the portable VS Code 1.146.0, extension folder and .obsolete entry recycled by hand, dart_probe.dart deleted. RESULTS.tsv row appended (no bug found); dormant repo, no issue filed.
